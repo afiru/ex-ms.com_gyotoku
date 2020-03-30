@@ -113,3 +113,73 @@
     }
 }
 
+
+
+//add
+
+.under_page_title_plan {
+    background: url(../img/plan/back_plan_pc.jpg) no-repeat center center;
+    background-size: auto 100%;
+    @include media($sp) {
+        background: url(../img/plan/back_plan_sp.jpg) no-repeat center center;
+        background-size: 100% 100%;
+    }
+}
+
+.under_page_title_plan_h1 {
+@include rs_font_size(30px,2.9296875vw,8vw);
+//フォント（px）【PC】:30pxpx |【Tab】30px |【sp】 30px
+//設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+}
+.under_page_title_plan_h1_pref {
+@include rs_font_size(20px,1.953125vw,4.8vw);
+//フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 18px
+//設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+}
+.main_plan_contenr_contents_h2 {
+    letter-spacing: 0.2em;
+    @include rs_font_size(20px,1.953125vw,5.333333333333333vw);
+    //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 20px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    @include media($sp) {
+        @include linear-gradient(20 , 27);
+    }
+}
+.link_plan_one_column {
+    @include ontener_width(960 , 600);
+    @include media($sp) {
+        @include ontener_width(375 , 355);
+    }
+}
+.button_link_plan_one_column {
+    @include rs_font_size(20px,1.953125vw,5.333333333333333vw);
+    //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 20px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    @include paddingPercent(600 , 20 , 0 , 20 , 0 );
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 0.06em;
+}
+.button_link_plan_one_column {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ed86b3+0,914897+18,431746+100 */
+    background: #ed86b3; /* Old browsers */
+    background: -moz-linear-gradient(top, #ed86b3 0%, #914897 18%, #431746 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ed86b3 0%,#914897 18%,#431746 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ed86b3 0%,#914897 18%,#431746 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed86b3', endColorstr='#431746',GradientType=0 ); /* IE6-9 */
+}
+.button_link_plan_one_column {
+    transition-duration: 0.5s;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+.plan_contents_setumei {
+    @include ontener_width(960 , 800 );
+    @include media($sp) {
+        @include ontener_width(375 , 375);
+    }
+}
