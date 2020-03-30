@@ -7,7 +7,7 @@
                 </a>
             </li>
             <li class="sp_bottom_tuijuu_ul_li">
-                <a href="https://airrsv.net/haijima/calendar" target="_blank">
+                <a href="tel:0120171180">
                     <img src="img/header/button_header_contact_sp.svg" alt="電話で問い合わせ">
                 </a>
             </li>

@@ -60,7 +60,10 @@
             </a>
         </li>
         <li class="index_top_nav_ul_li">
-            <a class="" href="https://airrsv.net/haijima/calendar" target="_blank">
+            <span class="pc_only">
+                <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
+            </span>
+            <a class="sp_only" href="tel:0120171180" title="_blank">
                 <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
             </a>
         </li>
