@@ -84,10 +84,10 @@
 }
 .pc_header_main_set {
     .header_button_contact_li {
-        @include ontener_width(243.367 , 120 );
+        /*@include ontener_width(243.367 , 120 );*/
     }
     .header_button_contents_tel_li {
-        @include ontener_width(243.367 , 120 );
+        /*@include ontener_width(243.367 , 120 );*/
     }
 }
 .header_main_nav_contents {
@@ -170,20 +170,30 @@ body {
     text-decoration: none;
     font-size: 16px;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     @include buttontype14(#e50044,#e50044,1px,#FFF,#FFF,#FFF,#e50044); display:block;
 }
+
 .button_B40732 {
     display: block;
     width: 100%;
     letter-spacing: 5px;
-    background: #6fb92c;
+    /*background: #6fb92c;*/
     color: #FFF;
     text-decoration: none;
     font-size: 16px;
     text-align: center;
-    padding: 20px 0;
-    @include buttontype14(#6fb92c,#6fb92c,1px,#FFF,#FFF,#FFF,#6fb92c); display:block;
+    /*padding: 10px 0;*/
+    /*@include buttontype14(#009fe8,#009fe8,1px,#FFF,#FFF,#FFF,#009fe8); display:block;*/
+}
+.button_B40732{
+    img{
+        display: block;
+        @include ontener_width(350 , 330 );
+        @include marginPercent(350 , 0 , auto , 0 , auto );
+        /*@include paddingPercent(350 , 10 , 0 , 10 , 0);*/
+        max-width: 330px;
+    }
 }
 .header_new_settings {
     @include ontener_width(1920 , 926.918);
@@ -200,7 +210,7 @@ body {
     .header_button_contact_li {}
 }
 .contact_tel_ul{
-    //background-color: #ed9100;
+   background-color: #009fe8;
 }
 .header_button_contact_li_tel {
     text-align: center;

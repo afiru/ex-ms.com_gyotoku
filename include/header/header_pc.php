@@ -31,7 +31,7 @@ else {
             <a class="main_logo" href="index.php">
                 <img src="img/logo.svg" alt="【公式】エクセレントシティ拝島駅前マンション">
             </a>
-            <h1 class="main_logo_txt">エクセレントシティ拝島駅前</h1>
+            <h1 class="main_logo_txt">エクセレントシティ行徳駅前</h1>
         </div>
         <div class="header_new_settings display_flex_center">
             <nav class=" now_annai_outline_nav">
@@ -58,9 +58,9 @@ else {
                         </a>
                     </li>
                     <li class="header_button_contact_li">
-                        <a class="button_B40732" href="https://airrsv.net/haijima/calendar" target="_blank">
-                           来場予約
-                        </a>
+                        <span class="button_B40732">
+                            <img src="img/header/header_contact_tel.png">
+                        </span>
                     </li>
                 </ul>
             </nav>

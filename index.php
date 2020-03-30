@@ -48,17 +48,17 @@
         <img src="img/index/title_index_add_pref_area_h2.svg" alt="資料請求">
     </h2>
     <!-- <p class=" t_center color_BE0D23 margin_wapper_60 top_pref_index_add_pref_area">4月上旬</p> -->
-    <p class=" t_center color_BE0D23 margin_wapper_20 middle_pref_index_add_pref_area">4月11日<span style="font-size: 90%;">（土）</span>より<br>事前説明会開催<br class="sp_only"><span style="font-size: 70%;">[予約制]</span></p>
+    <p class="mintyou t_center color_BE0D23 margin_wapper_20 middle_pref_index_add_pref_area">4月11日<span style="font-size: 90%;">(土)</span>より<br>事前説明会開催<br class="sp_only"><span style="font-size: 70%;">[予約制]</span></p>
          <!-- <br class="sp_only"><span style="text-align: center;margin-top: 10px; font-size:35px;">［予約制］</span> -->
-    <p class=" t_center color_BE0D23 margin_wapper_20 bottom_pref_index_add_pref_area">資料請求受付中</p>
+    <p class="mintyou t_center color_BE0D23 margin_wapper_20 bottom_pref_index_add_pref_area">資料請求受付中</p>
 
     <!--コロナ対応のお知らせ-->
     <link rel="stylesheet" rev="stylesheet" href="//www.ex-ms.com/css/special.css" type="text/css" media="screen,print" />
-    <div class="txtCorona mincho">
+<!--    <div class="txtCorona mincho">
         <a href="https://www.ex-ms.com/info/20200323.php" target="_blank">
     &#8250; 新型コロナウイルスへの感染、流行拡大の防止策について
         </a>
-    </div>
+    </div>-->
     
 </div>
 <main class="main_index">
@@ -70,7 +70,10 @@
                 </a>
             </li>
             <li class="index_top_nav_ul_li">
-                <a class="" href="https://airrsv.net/haijima/calendar" title="_blank">
+                <span class="pc_only">
+                    <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
+                </span>
+                <a class="sp_only" href="tel:0120171180" title="_blank">
                     <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
                 </a>
             </li>

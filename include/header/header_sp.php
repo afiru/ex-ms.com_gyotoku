@@ -31,7 +31,7 @@ else {
             <a class="main_logo" href="index.php">
                 <img src="img/logo.svg" alt="エクセレントシティ">
             </a>
-            <h1 class="main_logo_txt">エクセレントシティ拝島駅前</h1>
+            <h1 class="main_logo_txt">エクセレントシティ行徳駅前</h1>
         </div>
         <?php if(strpos($url,'plan_detail') !== false): else: ?>
         <div class="button_sp_manu_box off">

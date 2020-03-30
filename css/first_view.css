@@ -565,10 +565,10 @@ html {
     color: #afafb0; }
 
 .pc_header_main_set .header_button_contact_li {
-  width: 49.3%; }
+  /*@include ontener_width(243.367 , 120 );*/ }
 
 .pc_header_main_set .header_button_contents_tel_li {
-  width: 49.3%; }
+  /*@include ontener_width(243.367 , 120 );*/ }
 
 .header_main_nav_contents_ul_kenmigawa_li {
   width: 14.27%; }
@@ -629,7 +629,7 @@ html {
   text-decoration: none;
   font-size: 16px;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
   border: 1px solid #e50044;
   transition-duration: 0.25s;
   background: #e50044;
@@ -674,51 +674,23 @@ html {
   display: block;
   width: 100%;
   letter-spacing: 5px;
-  background: #6fb92c;
+  /*background: #6fb92c;*/
   color: #FFF;
   text-decoration: none;
   font-size: 16px;
   text-align: center;
-  padding: 20px 0;
-  border: 1px solid #6fb92c;
-  transition-duration: 0.25s;
-  background: #6fb92c;
-  color: #FFF;
-  z-index: 2;
-  overflow: hidden;
-  position: relative;
-  overflow: hidden;
-  display: block; }
-  .button_B40732:after {
-    content: '';
-    display: block;
-    z-index: -2;
-    transition-duration: 0.5s;
-    position: absolute;
-    left: 0%;
-    top: 0;
-    width: 150%;
-    height: 150%;
-    background: #6fb92c; }
-  .button_B40732:before {
-    content: '';
-    display: block;
-    z-index: -1;
-    transition-duration: 0.5s;
-    position: absolute;
-    left: -5%;
-    top: 0;
-    width: 0%;
-    height: 100%;
-    background: #FFF; }
-  .button_B40732:hover {
-    overflow: hidden;
-    background: none;
-    color: #6fb92c;
-    border: 1px solid #FFF; }
-    .button_B40732:hover:before {
-      height: 100%;
-      width: 110%; }
+  /*padding: 10px 0;*/
+  /*@include buttontype14(#009fe8,#009fe8,1px,#FFF,#FFF,#FFF,#009fe8); display:block;*/ }
+
+.button_B40732 img {
+  display: block;
+  width: 94.28%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  /*@include paddingPercent(350 , 10 , 0 , 10 , 0);*/
+  max-width: 330px; }
 
 .header_new_settings {
   width: 48.27%; }
@@ -729,6 +701,9 @@ html {
     width: 50%; }
   .header_new_settings .header_button_contact_li {
     width: 50%; }
+
+.contact_tel_ul {
+  background-color: #009fe8; }
 
 .header_button_contact_li_tel {
   text-align: center; }
