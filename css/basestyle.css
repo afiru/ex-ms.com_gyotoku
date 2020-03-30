@@ -6974,12 +6974,12 @@ html {
     @media screen and (max-width: 768px) {
       .footer_nav_ul .footer_nav_ul_li_03 {
         width: 100%; } }
-    .footer_nav_ul .footer_nav_ul_li_03 .footer_nav_ul_li_03_a {
+    .footer_nav_ul .footer_nav_ul_li_03 img {
       display: block;
-      margin: 0 auto 0 0;
-      width: 88.25%; }
+      margin: 0 auto 0 auto;
+      width: 83.8%; }
       @media screen and (max-width: 768px) {
-        .footer_nav_ul .footer_nav_ul_li_03 .footer_nav_ul_li_03_a {
+        .footer_nav_ul .footer_nav_ul_li_03 img {
           width: 100%; } }
     .footer_nav_ul .footer_nav_ul_li_03:before {
       content: '';
@@ -7041,6 +7041,9 @@ html {
   @media screen and (max-width: 768px) {
     .main_plan_contenr_contents_h2 {
       font-size: 4.8vw; } }
+
+.main_plan_contenr_contents_h2_span {
+  color: #175e50; }
 
 .plan_contents_setumei {
   line-height: 1.75; }
@@ -7146,6 +7149,103 @@ html {
         margin-bottom: 0%;
         margin-left: auto;
         margin-right: auto; } }
+
+.under_page_title_plan {
+  background: url(../img/plan/back_plan_pc.jpg) no-repeat center center;
+  background-size: auto 100%; }
+  @media screen and (max-width: 768px) {
+    .under_page_title_plan {
+      background: url(../img/plan/back_plan_sp.jpg) no-repeat center center;
+      background-size: 100% 100%; } }
+
+@media screen and (min-width: 1025px) {
+  .under_page_title_plan_h1 {
+    font-size: 30px; } }
+
+@media print, screen and (max-width: 1024px) {
+  .under_page_title_plan_h1 {
+    font-size: 2.92969vw; } }
+
+@media screen and (max-width: 768px) {
+  .under_page_title_plan_h1 {
+    font-size: 8vw; } }
+
+@media screen and (min-width: 1025px) {
+  .under_page_title_plan_h1_pref {
+    font-size: 20px; } }
+
+@media print, screen and (max-width: 1024px) {
+  .under_page_title_plan_h1_pref {
+    font-size: 1.95313vw; } }
+
+@media screen and (max-width: 768px) {
+  .under_page_title_plan_h1_pref {
+    font-size: 4.8vw; } }
+
+.main_plan_contenr_contents_h2 {
+  letter-spacing: 0.2em; }
+  @media screen and (min-width: 1025px) {
+    .main_plan_contenr_contents_h2 {
+      font-size: 20px; } }
+  @media print, screen and (max-width: 1024px) {
+    .main_plan_contenr_contents_h2 {
+      font-size: 1.95313vw; } }
+  @media screen and (max-width: 768px) {
+    .main_plan_contenr_contents_h2 {
+      font-size: 5.33333vw; } }
+  @media screen and (max-width: 768px) {
+    .main_plan_contenr_contents_h2 {
+      background-color: 27;
+      background-image: -webkit-linear-gradient(-290, 27);
+      background-image: linear-gradient(20,27); } }
+
+.link_plan_one_column {
+  width: 62.5%; }
+  @media screen and (max-width: 768px) {
+    .link_plan_one_column {
+      width: 94.66%; } }
+
+.button_link_plan_one_column {
+  padding: 3.33% 0% 3.33% 0%;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  letter-spacing: 0.06em; }
+  @media screen and (min-width: 1025px) {
+    .button_link_plan_one_column {
+      font-size: 20px; } }
+  @media print, screen and (max-width: 1024px) {
+    .button_link_plan_one_column {
+      font-size: 1.95313vw; } }
+  @media screen and (max-width: 768px) {
+    .button_link_plan_one_column {
+      font-size: 5.33333vw; } }
+
+.button_link_plan_one_column {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ed86b3+0,914897+18,431746+100 */
+  background: #ed86b3;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ed86b3 0%, #914897 18%, #431746 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ed86b3 0%, #914897 18%, #431746 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ed86b3 0%, #914897 18%, #431746 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed86b3', endColorstr='#431746',GradientType=0 );
+  /* IE6-9 */ }
+
+.button_link_plan_one_column {
+  transition-duration: 0.5s; }
+  .button_link_plan_one_column:hover {
+    opacity: 0.6; }
+
+.plan_contents_setumei {
+  width: 83.33%; }
+  @media screen and (max-width: 768px) {
+    .plan_contents_setumei {
+      width: 100%; } }
 
 html {
   box-sizing: border-box; }

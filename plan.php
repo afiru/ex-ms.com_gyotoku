@@ -1,25 +1,40 @@
 <?php include 'include/header.php'; ?>
 <?php include 'include/tuijuu_sp.php'; ?>
-<section class="display_flex_center under_page_contents">
+<section class="display_flex_center under_page_contents under_page_title_plan">
+    <!--pc: img/plan/back_plan_pc.jpg | sp:img/plan/back_plan_sp.jpg-->
     <div class="text_box">
-        <h1 class="t_center color_fff mintyou">ROOM PLAN</h1>
+        <h1 class="t_center  mintyou under_page_title_plan_h1">PLAN</h1>
+        <p class="t_center mintyou pref_title_contents under_page_title_plan_h1_pref">スタイルに合わせて選べる多彩なプラン</p>
     </div>
 </section>
-<main class="padding_top_50_bottom_50 plan_main">
+<main class="padding_top_80_bottom_50 plan_main">
     <div class="wapper plan_main_wapper">
         <section class="main_plan_contenr">
             <h2 class="t_center main_plan_contenr_contents_h2">
-                西向き住戸約<span class="main_plan_contenr_contents_h2_span">85%</span> 充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン
+                西向き住戸約<span class="main_plan_contenr_contents_h2_span">85%</span><br class="sp_only">充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン
             </h2>
         </section>
-        <ul class="margin_wapper_50 display_flex_stretch display_row plan_main_loop_sec">
+        <!--<ul class="margin_wapper_50 display_flex_stretch display_row plan_main_loop_sec">
             <li>
                 <a href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_a', '', 'width=1024,height=768,scrollbars=yes'); return false;">
                     <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
                     <p class="button_plan_main_loop_sec">詳細情報を見る</p>
                 </a>
             </li>
-        </ul>
+        </ul>-->
+        <div class="margin_wapper_100 pic_buttons">
+            <figure class="bunner_plan_one_column">
+                <picture>
+                    <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_a.png"><!--PC画像-->
+                    <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_a_sp.png"><!--SP画像-->
+                    <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                </picture>
+            </figure>
+             
+             <div class="margin_wapper_100 link_plan_one_column">
+                 <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_a', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+             </div>
+        </div>
         <section class="margin_wapper_80 plan_contents_setumei">
             <p class="plan_contents_setumei_pref">
                 凡例：
@@ -51,10 +66,21 @@
         </li>
     </ul>
 </nav>
+
+<div class="margin_100 wapper bunner_plan_bottom_wap">
+    <a class="bunner_plan_bottom_link" href="" target="_blank">
+        <picture>
+            <source class="lazy" media="(min-width: 768px)" srcset="img/plan/bunner_plan_bottom_link_pc.png"><!--PC画像-->
+            <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/bunner_plan_bottom_link_sp.png"><!--SP画像-->
+            <img src="img/plan/bunner_plan_bottom_link_pc.png" alt="aタイプ">
+        </picture>
+    </a>
+</div>
+
 <div class="margin_40 padding_top_30_bottom_30 index_special_movie">
     <div class="wapper">
         <a class="index_special_movie_link_box" href="javascript:;" onclick="window.open('movie.php', '', 'width=910,height=800,scrollbars=yes'); return false;">
-            <img src="img/index/button_index_special_movie_link_box.png" alt="資料請求">
+            <img src="img/index/button_index_special_movie_link_box.png" alt="スペシャルウォーター">
         </a>
     </div>
 </div>
