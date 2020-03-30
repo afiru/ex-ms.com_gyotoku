@@ -9,8 +9,7 @@
     <div class="wapper plan_main_wapper">
         <section class="main_plan_contenr">
             <h2 class="t_center main_plan_contenr_contents_h2">
-                ３LDKを中心に1～2LDKも設定。<br>
-                多彩なライフスタイルにフィットする豊富なプランをご用意しました
+                西向き住戸約<span class="main_plan_contenr_contents_h2_span">85%</span> 充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン
             </h2>
         </section>
         <ul class="margin_wapper_50 display_flex_stretch display_row plan_main_loop_sec">
@@ -20,26 +19,6 @@
                     <p class="button_plan_main_loop_sec">詳細情報を見る</p>
                 </a>
             </li>
-
-            <li>
-                <a href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_c', '', 'width=1024,height=768,scrollbars=yes'); return false;">
-                    <img src="img/plan/thumbs_plan_c.png" alt="cタイプ">
-                    <p class="button_plan_main_loop_sec">詳細情報を見る</p>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_d', '', 'width=1024,height=768,scrollbars=yes'); return false;">
-                    <img src="img/plan/thumbs_plan_d.png" alt=dタイプ">
-                    <p class="button_plan_main_loop_sec">詳細情報を見る</p>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_e', '', 'width=1024,height=768,scrollbars=yes'); return false;">
-                    <img src="img/plan/thumbs_plan_e.png" alt="eタイプ">
-                    <p class="button_plan_main_loop_sec">詳細情報を見る</p>
-                </a>
-            </li>
-
         </ul>
         <section class="margin_wapper_80 plan_contents_setumei">
             <p class="plan_contents_setumei_pref">

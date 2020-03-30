@@ -10,8 +10,7 @@
 
 
 
-<div class="index_main_slider_after_contents bg_index_main_slider_after_contents bg_index_main_slider_after_contents_02">
-    <div class="wapper">
+<div class="index_main_slider_after_contents">
 <!--        <figure class="sp_only sp_top_pref">
             <img src="img/index/index_main_slider_after_contents_main_catch_sp.png" alt="「船堀Ⅳ」">
         </figure>-->
@@ -22,22 +21,20 @@
                 <img class="lazy index_main_slider_after_contents_main_catch_img" data-src="img/index/index_main_slider_after_contents_main_catch_pc.png" alt="都心直結のターミナル駅" />
             </picture>
         </figure>
-
-    </div>
 </div>
 
-<div class="index_main_slider_after_contents bg_index_main_slider_after_contents">
+<!--<div class="index_main_slider_after_contents bg_index_main_slider_after_contents">
     <div class="wapper">
         <figure class="index_main_slider_after_contents_main_catch index_main_slider_after_contents_main_catch_02">
             <picture>
-                <source class="lazy index_main_slider_after_contents_main_catch_img" media="(min-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_pc_02.png"><!--PC画像-->
-                <source class="lazy index_main_slider_after_contents_main_catch_img"  media="(max-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_sp_02.png"><!--SP画像-->
+                <source class="lazy index_main_slider_after_contents_main_catch_img" media="(min-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_pc_02.png">PC画像
+                <source class="lazy index_main_slider_after_contents_main_catch_img"  media="(max-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_sp_02.png">SP画像
                 <img class="lazy index_main_slider_after_contents_main_catch_img" data-src="img/index/index_main_slider_after_contents_main_catch_pc_02.png" alt="価格" />
             </picture>
         </figure>
 
     </div>
-</div>
+</div>-->
 
 
     <!-- price -->
@@ -51,9 +48,9 @@
         <img src="img/index/title_index_add_pref_area_h2.svg" alt="資料請求">
     </h2>
     <!-- <p class=" t_center color_BE0D23 margin_wapper_60 top_pref_index_add_pref_area">4月上旬</p> -->
-    <p class=" t_center color_BE0D23 margin_wapper_20 middle_pref_index_add_pref_area">4月11日<span style="font-size: 90%;">（土）</span>より<br class="sp_only">事前案内会<br class="sp_only">開催予定</p>
+    <p class=" t_center color_BE0D23 margin_wapper_20 middle_pref_index_add_pref_area">4月11日<span style="font-size: 90%;">（土）</span>より<br>事前説明会開催<br class="sp_only"><span style="font-size: 70%;">[予約制]</span></p>
          <!-- <br class="sp_only"><span style="text-align: center;margin-top: 10px; font-size:35px;">［予約制］</span> -->
-    <p class=" t_center color_BE0D23 margin_wapper_20 bottom_pref_index_add_pref_area">資料請求・<br class="sp_only">ご予約受付中</p>
+    <p class=" t_center color_BE0D23 margin_wapper_20 bottom_pref_index_add_pref_area">資料請求受付中</p>
 
     <!--コロナ対応のお知らせ-->
     <link rel="stylesheet" rev="stylesheet" href="//www.ex-ms.com/css/special.css" type="text/css" media="screen,print" />
@@ -91,10 +88,9 @@
 
     <section class="margin_60 wapper index_last_pref_sec">
         <p class="kinout_text">
-            【予告広告】※販売を開始するまでは契約または予約の申込みに一切応じられません。また申込み順位の確保に関する措置は講じられません。販売予定時期：2020年4月下旬<br>
-            ※（株）マーキュリー「サマリネット」調べ。 ※1：抽出期間：1995年12月～2020年2月。 ※2：1995年の計測開始より、「拝島」駅徒歩2分の物件供給は初。<br>
-            ※3：JR青梅線・JR五日市線・JR八高線・西武拝島線。JR青梅線はJR中央線に乗入、「新宿」駅直通便あり。<br>
-            ※掲載の建物完成予想CGは計画段階の図面を基に描いたもので実際とは異なります。なお、外観の細部・設備機器・配管類等は一部省略又は簡略化しております。植栽につきましては特定の季節の状況を表現したものではなく、竣工時には完成予想図程度には成長しておりません。樹種は一部変更になる場合があります。タイルや各種部材につきましては実物と質感・色等の見え方が異なる場合があります。また今後変更になる場合があります。
+            ※1：エクセレントシティ行徳駅前は、エネルギー消費20％以上を削減した「ZEH-M Oriented」基準のマンションです。<br>
+            ※2：「行徳」駅徒歩5分圏内のマンションが対象。平均専有面積35㎡以内の投資用マンションは除く。※サマリネット調べ（抽出期間：1999年1月〜2019年12月）<br>
+            ※掲載のロケーションCGは、現地から「行徳」駅までの距離感を表現したイメージです。周辺建物や電柱・標識・鉄塔などは一部簡略化または透過しております。建物完成予想CGは計画段階の図面を基に描いたもので実際とは異なります。なお、外観の細部・設備機器・配管類等は一部省略または簡略化しております。植栽につきましては特定の季節の状況を表現したものではなく、竣工時には完成予想図程度には成長しておりません。樹種は一部変更になる場合があります。タイルや各種部材につきましては実物と質感・色等の見え方が異なる場合があります。また今後変更になる場合があります。
         </p>
     </section>
 </main>

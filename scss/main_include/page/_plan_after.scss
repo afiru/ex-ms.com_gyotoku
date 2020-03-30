@@ -15,6 +15,10 @@
     line-height: 1.75;
 }
 
+.main_plan_contenr_contents_h2_span{
+    color: #175e50;
+}
+
 .plan_contents_setumei {
     line-height: 1.75;
     @include rs_font_size(11px,1.3671875vw,4.8vw);

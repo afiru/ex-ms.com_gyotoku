@@ -119,11 +119,11 @@
             @include media($sp) {
                 width: 100%;
             }
-        .footer_nav_ul_li_03_a {
-            display: block;
-            margin: 0 auto 0 0;
-            @include ontener_width(315 ,278 );
-            @include media($sp) {
+            img {
+                display: block;
+                margin: 0 auto 0 auto;
+                @include ontener_width(315 ,264 );
+                @include media($sp) {
                 width: 100%;
             }
         }

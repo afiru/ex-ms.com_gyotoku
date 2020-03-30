@@ -19,7 +19,7 @@
         margin: 0 auto;
     }
     li {
-        @include ontener_width(960 , 305);
+        /*@include ontener_width(960 , 305);*/
         @include marginPercent(960 , 0 , 0 , 30 , 0 );
         &:nth-child(3n+2){
             // @include marginPercent(270 , 20 , auto , 20 , auto);
@@ -37,15 +37,23 @@
         text-decoration: none;
     }
     .button_plan_main_loop_sec {
-        @include marginPercent(305 , 10 , 0 , 0 , 0 );
-        @include paddingPercent(305 , 10 , 0 , 10 , 0 );
+        @include ontener_width(960 , 600 );
+        @include marginPercent(960 , 95 , auto , 0 , auto );
+        @include paddingPercent(960 , 20 , 0 , 20 , 0 );
         text-align: center;
         color: #FFF;
         transition-duration: 0.5s;
         cursor: pointer;
-        @include rs_font_size(12px,1.171875vw,3.6826666666666665vw);
+/*        @include rs_font_size(12px,1.171875vw,3.6826666666666665vw);
         //フォント（px）【PC】:12pxpx |【Tab】12px |【sp】 13.81px
+        //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px*/
+        @include rs_font_size(23px,2.24609375vw,5.066666666666666vw);
+        //フォント（px）【PC】:23pxpx |【Tab】23px |【sp】 19px
         //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
         @include buttontype14(#805A63,#805A63,2px,#FFF,#FFF,#805A63,#805A63); display:block;
+        @include media($sp) {
+            width: 100%;
+            @include paddingPercent(375 , 5 , 0 , 5 , 0);
+        }
     }
 }
