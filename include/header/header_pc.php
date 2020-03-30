@@ -71,7 +71,7 @@ else {
     <nav class=" margin_0  header_main_nav_contents">
         <ul class="display_flex_stretch display_row header_main_nav_contents_ul">
             <li class="header_main_nav_contents_ul_kenmigawa_li header_main_nav_contents_ul_li_after_right">
-                <a class="" href="index.php">
+                <a class="<?php echo $activeclass['index']; ?>" href="index.php">
                     <h3 class="t_center  header_main_nav_contents_ul_li_after_right_title_h3">トップ</h3>
                     <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">TOP</ruby>
                 </a>
