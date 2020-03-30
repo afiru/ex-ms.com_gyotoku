@@ -624,15 +624,15 @@ html {
   display: block;
   width: 100%;
   letter-spacing: 5px;
-  background: #EE9B19;
+  background: #e50044;
   color: #FFF;
   text-decoration: none;
   font-size: 16px;
   text-align: center;
   padding: 20px 0;
-  border: 1px solid #2ca1db;
+  border: 1px solid #e50044;
   transition-duration: 0.25s;
-  background: #2ca1db;
+  background: #e50044;
   color: #FFF;
   z-index: 2;
   overflow: hidden;
@@ -649,7 +649,7 @@ html {
     top: 0;
     width: 150%;
     height: 150%;
-    background: #2ca1db; }
+    background: #e50044; }
   .button_EE9B19:before {
     content: '';
     display: block;
@@ -664,7 +664,7 @@ html {
   .button_EE9B19:hover {
     overflow: hidden;
     background: none;
-    color: #2ca1db;
+    color: #e50044;
     border: 1px solid #FFF; }
     .button_EE9B19:hover:before {
       height: 100%;
@@ -674,15 +674,15 @@ html {
   display: block;
   width: 100%;
   letter-spacing: 5px;
-  background: #B40732;
+  background: #6fb92c;
   color: #FFF;
   text-decoration: none;
   font-size: 16px;
   text-align: center;
   padding: 20px 0;
-  border: 1px solid #ed9100;
+  border: 1px solid #6fb92c;
   transition-duration: 0.25s;
-  background: #ed9100;
+  background: #6fb92c;
   color: #FFF;
   z-index: 2;
   overflow: hidden;
@@ -699,7 +699,7 @@ html {
     top: 0;
     width: 150%;
     height: 150%;
-    background: #ed9100; }
+    background: #6fb92c; }
   .button_B40732:before {
     content: '';
     display: block;
@@ -714,7 +714,7 @@ html {
   .button_B40732:hover {
     overflow: hidden;
     background: none;
-    color: #ed9100;
+    color: #6fb92c;
     border: 1px solid #FFF; }
     .button_B40732:hover:before {
       height: 100%;
@@ -729,9 +729,6 @@ html {
     width: 50%; }
   .header_new_settings .header_button_contact_li {
     width: 50%; }
-
-.contact_tel_ul {
-  background-color: #ed9100; }
 
 .header_button_contact_li_tel {
   text-align: center; }
@@ -833,13 +830,13 @@ html {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c0101+1,9a1c21+100 */
   background: #4c0101;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #4c0101 1%, #9a1c21 100%);
+  background: -moz-linear-gradient(top, #b94faf 1%, #ff86d6 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #4c0101 1%, #9a1c21 100%);
+  background: -webkit-linear-gradient(top, #b94faf 1%, #ff86d6 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #4c0101 1%, #9a1c21 100%);
+  background: linear-gradient(to bottom, #b94faf 1%, #ff86d6 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c0101', endColorstr='#9a1c21',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b94faf', endColorstr='#ff86d6',GradientType=0 );
   /* IE6-9 */ }
   .header_main_nav_contents_ul_kenmigawa_li a:hover h3 {
     color: #FFF; }
@@ -847,7 +844,7 @@ html {
     color: #FFF; }
 
 .header_main_nav_contents_ul_kenmigawa_li a.active {
-  background: #D91F68; }
+  background: #ff86d6; }
   .header_main_nav_contents_ul_kenmigawa_li a.active h3 {
     color: #FFF; }
   .header_main_nav_contents_ul_kenmigawa_li a.active ruby {
