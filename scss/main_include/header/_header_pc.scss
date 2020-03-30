@@ -1,0 +1,274 @@
+@charset "utf-8";
+@import '../../sass_base/mixin';
+@import '../../sass_base/animate';
+@import '../../sass_base/icon_arrow';
+
+.base_pc_header_set {
+
+}
+.pc_header_main_set {
+    .logo_txt {
+        width: 500px;
+        @include marginPercent(1920 , 0 , 0 , 0 , 20);
+        @include media($tab) {
+            @include ontener_width(800 , 400 );
+        }
+    }
+    .now_annai_outline_nav {
+        @include ontener_width(960 , 160 );
+        @include media($tab) {
+            @include ontener_width(800 , 135 );
+        }
+    }
+    .contact_tel {
+        @include ontener_width(960 , 243.367 );
+        @include media($tab) {
+            @include ontener_width(800 , 202.806 );
+        }
+    }
+}
+.pc_header_main_set .logo_txt {
+    .main_logo {
+        @include ontener_width( 500 , 139.538 );
+    }
+    .main_logo_txt {
+        @include rs_font_size(15px,1.2578125vw,4.8vw);
+        //フォント（px）【PC】:18pxpx |【Tab】18px |【sp】 18px
+        //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+        margin: 0% 0 0 0;
+        width: 70%;
+    }
+}
+.pc_header_main_set .now_annai_outline_nav .now_annai_outline_nav_ul {
+    .now_annai_outline_nav_ul_now_annai_link {
+        text-decoration: none;
+    }
+    .now_annai_outline_nav_ul_now_annai {
+        @include ontener_width(175 , 78.771 );
+    }
+    .now_annai_outline_nav_ul_outline {
+        @include ontener_width(175 , 91.424 );
+    }
+}
+.now_annai_outline_nav_ul_now_annai {
+    .now_annai_outline_h2 {
+        @include rs_font_size(13px,1.26953125vw,4.8vw);
+        //フォント（px）【PC】:13pxpx |【Tab】13px |【sp】 18px
+        //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+        font-weight: 400;
+
+    }
+}
+.now_annai_outline_nav_ul_txt {
+    display: block;
+    @include marginPercent(175 , 0 , 0 , 0 , 0);
+    @include paddingPercent(175 , 0 , 0 , 2 , 0 );
+    @include rs_font_size(9.45px,0.9228515624999999vw,3.2vw);
+    //フォント（px）【PC】:9.45pxpx |【Tab】9.45px |【sp】 12px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+}
+.now_annai_outline_nav_ul_outline {
+    @include rs_font_size(13px,1.26953125vw,4.8vw);
+    //フォント（px）【PC】:13pxpx |【Tab】13px |【sp】 18px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    text-align: center;
+    color: #afafb0;
+    text-decoration: none;
+    a {
+        color: #18110F;
+        text-decoration: none;
+    }
+    span {
+        color:#afafb0;
+    }
+}
+.pc_header_main_set {
+    .header_button_contact_li {
+        @include ontener_width(243.367 , 120 );
+    }
+    .header_button_contents_tel_li {
+        @include ontener_width(243.367 , 120 );
+    }
+}
+.header_main_nav_contents {
+
+}
+.header_main_nav_contents_ul_kenmigawa_li {
+    @include ontener_width(960.729 , 137.142 );
+    a {
+        img {
+            transition-duration: 0.5s;
+            &.nomal {
+                display: block;
+            }
+            &.active {
+                display: none;
+            }
+            &.comming {
+                display: none;
+            }
+        }
+        &.active {
+            .nomal {
+                display: none;
+            }
+            .active {
+                display: block;
+            }
+            .comming {
+                display: none;
+            }
+        }
+    }
+    span {
+        .active {
+            display: none;
+        }
+        .nomal {
+            display: none;
+        }
+        .comming {
+                display: block;
+        }
+    }
+}
+.sp_bottom_tuijuu {
+    @include paddingPercent(375 , 5 , 10 , 0 , 10 );
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: #FFF;
+    z-index: 99999999999999999999999999999999999999;
+}
+body {
+    @include media($sp) {
+        padding-bottom: 15.4vw;
+    }
+}
+
+.movie_box {
+    width: 90%;
+    margin: 3% auto;
+    overflow: hidden;
+    position: relative;
+    padding: 25% 0;
+}
+.movie_box .video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.button_EE9B19 {
+    display: block;
+    width: 100%;
+    letter-spacing: 5px;
+    background: #EE9B19;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+    @include buttontype14(#2ca1db,#2ca1db,1px,#FFF,#FFF,#FFF,#2ca1db); display:block;
+}
+.button_B40732 {
+    display: block;
+    width: 100%;
+    letter-spacing: 5px;
+    background: #B40732;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+    @include buttontype14(#ed9100,#ed9100,1px,#FFF,#FFF,#FFF,#ed9100); display:block;
+}
+.header_new_settings {
+    @include ontener_width(1920 , 926.918);
+    .now_annai_outline_nav {
+        width: 210px;
+        margin:  0 0 0 20%;
+    }
+    .contact_tel {
+        @include ontener_width(700 , 350);
+    }
+    .header_button_contact_li {
+        width: 50%;
+    }
+    .header_button_contact_li {}
+}
+.contact_tel_ul{
+    background-color: #ed9100;
+}
+.header_button_contact_li_tel {
+    text-align: center;
+    a {
+        
+    }
+}
+
+.now_annai_outline_nav_ul {
+    .arrow {
+        @include arrow_type23(#000);
+    }
+    .comming .arrow {
+        @include arrow_type23(#afafb0);
+    }
+}
+
+.header_main_nav_contents_ul_kenmigawa_li {
+    h3 {
+        @include rs_font_size(16px,1.5625vw,4.266666666666667vw);
+        //フォント（px）【PC】:16pxpx |【Tab】16px |【sp】 16px
+        //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+        font-weight: normal;
+        transition-duration: 0.5s;
+        color: #595757;
+    }
+    a,span {
+        display: block;
+        width: 100%;
+        padding: 10.1px 0;
+        background: #F0F0F0;
+        transition-duration: 0.5s;
+        text-decoration: none;
+    }
+    ruby {
+        margin: 2px 0 0 0;
+        display: block;
+        font-weight: normal;
+        @include rs_font_size(9.45px,0.9228515624999999vw,2.5199999999999996vw);
+        //フォント（px）【PC】:9.45pxpx |【Tab】9.45px |【sp】 9.45px
+        //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+        color: #595757;
+        transition-duration: 0.5s;
+    }
+    span ruby {
+        color:#99999a;
+    }
+}
+.header_main_nav_contents_ul_kenmigawa_li a:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c0101+1,9a1c21+100 */
+    background: #4c0101; /* Old browsers */
+    background: -moz-linear-gradient(top, #4c0101 1%, #9a1c21 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4c0101 1%,#9a1c21 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #4c0101 1%,#9a1c21 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c0101', endColorstr='#9a1c21',GradientType=0 ); /* IE6-9 */
+    h3{
+        color: #FFF;
+    }
+    ruby{
+        color: #FFF;
+    }
+}
+.header_main_nav_contents_ul_kenmigawa_li a.active {
+    background: #D91F68;
+    h3{
+        color: #FFF;
+    }
+    ruby{
+        color: #FFF;
+    }
+}

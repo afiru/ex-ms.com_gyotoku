@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+@keyframes cloak-in {
+  0% {
+    opacity: 0;
+    margin-top:-2px;
+  }
+  100% {
+     opacity: 1;
+     margin-top:0;
+  }
+}
+.pc_link_none {
+    pointer-events: none;
+    @include media($sp) {
+        pointer-events: auto;
+    }
+}
+#page_top {
+  animation: cloak-in 0.1s;
+}
+#page_top[v-cloak] {
+  opacity: 0;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+.test {
+    background: url("#{$imgpass}/back");
+}
+
+.display_flex_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.display_flex_stretch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.display_row {
+    flex-flow: row wrap;
+}
+body {
+    font-family: sans-serif;
+    @include imgwidth();
+    @include rs_font_size();
+}
+#mintyou,.mintyou {
+    font-family:serif;
+}
+
+.wf-active {
+    body {
+       font-family: 'Noto Sans JP',sans-serif;
+       visibility: visible;
+    }
+    #mintyou,.mintyou {
+        font-family:"Noto Serif JP",serif;
+        visibility: visible;
+    }
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import 'sass_base/mixin';
+@import 'sass_base/base';
+@import 'sass_base/mixin';
+@import 'sass_base/animate';
+@import 'sass_base/icon_arrow';
+@import 'sass_base/coding_guideline';
+
+#scroll_on {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #FFF;
+    left: 0;
+    z-index: 9999999999;
+}
+img {
+    display: block;
+}
+.under_page_contents {
+    background: url(img/bunner_bottom_pc.jpg) no-repeat center center;
+    background-size: auto 100%;
+    height: 180px;
+    font-weight: 400;
+    justify-content: center;
+    @include rs_font_size(30px,2.9296875vw,4vw);
+    //フォント（px）【PC】:30pxpx |【Tab】30px |【sp】 15px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    @include media($sp) {
+        background: url(img/bunner_bottom_sp.jpg) no-repeat center center;
+        background-size: auto 100%;
+        height: 24vw;
+    }
+    h1 {
+        font-weight: 400;
+    }
+}
+.now_annai_outline_nav_ul_now_annai_link {
+    color: #000;
+}
+
+.main_plan_contenr_contents_p {
+    @include rs_font_size(20px,1.953125vw,3.7333333333333334vw);
+    //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 14px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+}
+//トップページ部分
+@import 'main_include/header/_header_pc';
+@import 'main_include/header/_header_sp';
+
+

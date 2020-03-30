@@ -1,0 +1,117 @@
+@charset "utf-8";
+@import '../../sass_base/mixin';
+@import '../../sass_base/animate';
+@import '../../sass_base/icon_arrow';
+@import '../../sass_base/slider';
+.color_BE0D23 {
+    color: #BE0D23;
+}
+.index_main_slider_contents {
+    position: relative;
+    z-index: 2;
+}
+.sp_top_pref {
+    @include media($sp) {
+        position: relative;
+        left: 0;
+        top: 0%;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+.bg_index_main_slider_after_contents {
+    background: url(img/index/bg_index_main_slider_after_contents_pc.png) no-repeat center center;
+    background-size: cover;
+    padding: 40px 0 40px 0;
+    position: relative;
+    z-index: 999;
+    @include media($sp) {
+        background: url(img/index/bg_index_main_slider_after_contents_sp.png) no-repeat center center;
+        background-size: 100% 100%;
+        position: relative;
+        @include marginPercent(375 , 0 , 0 , 0 , 0 );
+        @include paddingPercent(375 , 10 , 0 ,35 , 0);
+    }
+}
+.bg_index_main_slider_after_contents_02{
+    background: #000;
+    background-size: cover;
+    padding: 40px 0 40px 0;
+    position: relative;
+    z-index: 999;
+    @include media($sp) {
+        background:#000;
+        background-size: 100% 100%;
+        position: relative;
+        @include marginPercent(375 , 0 , auto , 0 , auto );
+        @include paddingPercent(375 , 30 , 0 ,20 , 0);
+    }
+}
+.index_main_slider_after_contents_main_catch {
+    position: relative;
+    @include ontener_width(960 , 960);
+    margin: 0 auto;
+    @include media($sp) {
+        @include ontener_width(375 , 322.8076);
+    }
+}
+.index_main_slider_after_contents_main_catch_02{
+    @include media($sp) {
+        @include ontener_width(375 , 293.5859);
+    }
+}
+
+.index_main_slider_after_contents_ul {
+    @include media($sp) {
+        @include ontener_width(375 , 355 );
+        margin: 0 auto;
+    }
+    img {
+        width: 100%;
+    }
+}
+.index_main_slider_after_contents_h2 {
+    color: #1F2C5C;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b19d55+0,fffbc7+51,b9a765+100 */
+    background: #b19d55; /* Old browsers */
+    background: -moz-linear-gradient(top, #b19d55 0%, #fffbc7 51%, #b9a765 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b19d55 0%,#fffbc7 51%,#b9a765 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b19d55 0%,#fffbc7 51%,#b9a765 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b19d55', endColorstr='#b9a765',GradientType=0 ); /* IE6-9 */
+    letter-spacing: 5px;
+    text-align: center;
+    @include rs_font_size(31.84px,3.109375vw,8.490666666666666vw);
+    //フォント（px）【PC】:31.84pxpx |【Tab】31.84px |【sp】 31.84px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(375 , 355);
+    }
+}
+
+
+.main_index_figure_box {
+    @include ontener_width(960 , 800);
+    display: block;
+    margin: 0 auto;
+    @include media($sp) {
+        @include ontener_width(375 , 355 );
+    }
+}
+
+.main_index_link_nav_ul {
+    @include ontener_width(960 , 800);
+    margin: 0 auto;
+    @include media($sp) {
+        @include ontener_width(375 , 355 );
+        @include marginPercent(375 , 10 , auto , 0 , auto );
+    }
+    li {
+        @include ontener_width(800 , 390 );
+        @include media($sp) {
+            width: 100%;
+            @include marginPercent(375 , 0 , auto , 10 , auto );
+        }
+    }
+}
+
+

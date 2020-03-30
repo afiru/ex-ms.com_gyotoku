@@ -1,0 +1,63 @@
+@charset "utf-8";
+@import '../../sass_base/mixin';
+@import '../../sass_base/animate';
+@import '../../sass_base/icon_arrow';
+
+.under_page_contents_design {
+    background: url(../img/design/design_top_pc.jpg) no-repeat center center;
+    background-size: cover;
+    @include media($sp) {
+        background: url(../img/design/design_top_sp.jpg) no-repeat center center;
+        background-size: cover; 
+    }
+    h1 {
+        color: #fff;
+        @include rs_font_size(30px,2.9296875vw,4vw);
+        //フォント（px）【PC】:30pxpx |【Tab】30px |【sp】 15px
+        //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    }
+    p {
+        color: #fff;
+        @include rs_font_size(20px,1.953125vw,3.7333333333333334vw);
+        //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 14px
+        //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    }
+}
+.top_page_design {
+    background: url(../img/design/top_page_design_pc.png) no-repeat center center;
+    background-size: cover;
+    height: 1007px;
+    @include media($sp) {
+        height: 330.4vw;
+        background: url(../img/design/top_page_design_sp.png) no-repeat center center;
+        background-size: cover; 
+    }  
+}
+
+.design_innner_corridor {
+    @include marginPercent(960 , 170 , auto , 0 , auto );
+}
+.back_E0DEBD {
+    background: #F7F7EE;
+}
+
+.top_page_design_contentnts {
+    @include media($sp) {
+        @include ontener_width(375 , 355 );
+        @include marginPercent(375 , 60 , auto , 0 , auto );
+    }
+}
+.design_innner_corridor {
+    @include media($sp) {
+        @include marginPercent(355 , 70 , auto , 0 , auto );
+    }
+}
+
+.design_bottom_sec {
+    @include media($sp) {
+        @include marginPercent(375 , 160 , auto , 0 , auto );
+        @include paddingPercent(375 , 60 , 10 , 80 , 10 );
+    }
+    
+    
+}

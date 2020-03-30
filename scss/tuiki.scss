@@ -1,0 +1,170 @@
+@charset "utf-8";
+@import 'sass_base/mixin';
+@import 'sass_base/animate';
+@import 'sass_base/icon_arrow';
+@import '_mysetting';
+
+.mincho {
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 Pr6 W6", "Hiragino Mincho Pro", "HGS明朝E", "メイリオ", "ＭＳ Ｐ明朝", "MS PMincho", "Sawarabi Mincho", Meiryo, serif;
+}
+
+.calendar {
+    max-width: 900px;
+    width:98%;
+    margin: 30px auto 40px;
+    /* display: none; */
+}
+.calendar h3 {
+    background-color: #4fa71f;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.calendar .txt {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.calendar .txt i {
+    font-size: 16px;
+    vertical-align: middle;
+}
+.calendar table {
+    border-left: solid 1px #333333;
+    border-top: solid 1px #333333;
+    width: 100%;
+    margin-bottom: 5px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.calendar table tr {
+}
+.calendar table th, .calendar table td {
+    vertical-align: middle;
+    padding: 3px 0;
+    border: solid 1px #d0d0d0;
+    font-size: 20px;
+    width: 12.5%;
+    text-align: center;
+    background-color: #ffffff;
+}
+.calendar table th {line-height: 1;padding: 5px 0;}
+.calendar table th small{
+	font-size: 14px;
+}
+.calendar table th.sun {
+    color: #bc4937;
+}
+.calendar table th.sat {
+    color: #0041a3;
+}
+.calendar table td {
+    font-size: 22px;
+    /* padding: 0px 0 5px; */
+    background-color: #ffffff;
+    color: #333333;
+}
+.calendar table td:first-child {
+    font-size:18px;
+}
+.calendar table td i {
+    vertical-align: text-bottom;
+    line-height: 1;
+    font-size: 18px;
+}
+.calendar table td.close {
+    background-color: #e7e7e7;
+    color: #333333;
+}
+.calendar table td.full {
+    background-color: #e2e2e2;
+    font-size: 18px;
+}
+.calendar table td.full i {
+    color: #000000;
+}
+.calendar table td a i{
+    text-decoration:underline;
+}
+.calendar table td.little a i {
+    color: #2367c6;
+}
+.calendar table td.able a i{
+    color: #bc4937;
+}
+.calendar .chu{
+	text-align:center;
+	
+}
+@media screen and (max-width: 640px) {
+	.calendar {
+			max-width: 900px;
+	}
+	.calendar h3 {
+			font-size: 18px;
+	}
+	.calendar .txt {
+			margin-bottom: 5px;
+	}
+	.calendar .txt i {
+			font-size: 16px;
+			vertical-align: middle;
+	}
+	.calendar table {
+			border-left: solid 1px #333333;
+			border-top: solid 1px #333333;
+			width: 100%;
+			margin-bottom: 5px;
+	}
+	.calendar table tr {
+	}
+	.calendar table th, .calendar table td {
+			vertical-align: middle;
+			padding: 3px 0;
+			font-size: 20px;
+			width: 12.5%;
+			text-align: center;
+	}
+	.calendar table th {line-height: 1;padding: 5px 0;}
+	.calendar table th small{
+		font-size: 10px;
+	}
+	.calendar table th.sun {
+			color: #bc4937;
+	}
+	.calendar table th.sat {
+			color: #0041a3;
+	}
+	.calendar table td {
+			font-size: 22px;
+			/* padding: 0px 0 5px; */
+			background-color: #ffffff;
+	}
+	.calendar table td:first-child {
+			font-size: 12px;
+	}
+	.calendar table td i {
+			line-height: 1;
+			font-size: 18px;
+	}
+	.calendar table td.close {
+			background-color: #e7e7e7;
+			color: #333333;
+	}
+	.calendar table td.full {
+			font-size: 14px;
+	}
+	.calendar table td.full i {
+			color: #000000;
+	}
+	.calendar table td a i{
+	}
+	.calendar table td.little a i {
+			color: #2367c6;
+	}
+	.calendar table td.able a i{
+	}
+}

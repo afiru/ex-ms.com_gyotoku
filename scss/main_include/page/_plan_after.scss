@@ -1,0 +1,111 @@
+@charset "utf-8";
+@import '../../sass_base/mixin';
+@import '../../sass_base/animate';
+@import '../../sass_base/icon_arrow';
+.color_8F0019 {
+    color: #8F0019;
+}
+.color_ff000 {
+    color: #B40732;
+}
+.main_plan_contenr_contents_h2 {
+    @include rs_font_size(20px,1.953125vw,4.8vw);
+    //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 18px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    line-height: 1.75;
+}
+
+.plan_contents_setumei {
+    line-height: 1.75;
+    @include rs_font_size(11px,1.3671875vw,4.8vw);
+    //フォント（px）【PC】:11pxpx |【Tab】14px |【sp】 18px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    @include media($sp){
+        @include ontener_width(375 , 355);
+        @include marginPercent(375 , 40 , auto , 0 , auto);
+    }
+    .plan_contents_setumei_tuuhuu,.plan_contents_setumei_gyakkou,.plan_contents_setumei_yukadanbou {
+        margin: 0 0 0 20px;
+        display: inline-block;
+        padding: 0 0 0 60px;
+        @include media($sp){
+            margin: 0 0 0 2px;
+            padding: 0 0 0 30px;
+        }
+    }
+}
+.plan_contents_setumei_tuuhuu {
+    background: url(../img/plan/icon_nami.png) no-repeat left center;
+    background-size: auto 40%;
+    @include media($sp){
+        background-size: auto 20%;
+    }
+}
+.plan_contents_setumei_gyakkou {
+    background: url(../img/plan/icon_y_triangle.png) no-repeat left center;
+    background-size: auto 40%;
+    @include media($sp){
+        background-size: auto 20%;
+    }
+}
+.plan_contents_setumei_yukadanbou {
+    background: url(../img/plan/icon_yukadan.png) no-repeat left center;
+    background-size: auto 40%;
+    @include media($sp){
+        background-size: auto 20%;
+    }
+}
+
+//ここから
+.plan_main{
+    @include media($sp){
+        @include ontener_width(375 , 355);
+        @include marginPercent(375 , 30 , auto , 0 , auto);
+    }
+}
+.plan_contents_setumei_after {
+    @include paddingPercent(960 , 0 , 15 , 0 , 15 );
+}
+.plan_detail_contents{
+    @include ontener_width(808.662 , 400);
+    @include media($sp){
+        width: 100%;
+    }
+}
+
+.plan_detail_figure{
+    @include ontener_width(808.662 , 400);
+    @include media($sp){
+        width: 100%;
+    }
+}
+
+.plan_contents_setumei{
+    width: 100%;
+}
+.color_00437C {
+    color:#00437C;
+}
+.page_plan_detail_print_close{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 377.622px;
+    @include marginPercent(960 , 48 , auto , 0 , auto);    
+    @include media($sp){
+        @include marginPercent(355 , 60 , auto , 0 , auto);
+        @include ontener_width(355 , 270);
+    }
+    li{
+        @include ontener_width(377.622 , 184.091);
+        @include media($sp){
+            width: 100%;
+        }
+        &:nth-child(2){
+            @include media($sp){
+                 @include marginPercent(270 , 20 , auto , 0 , auto);
+            }
+        }
+    }
+}
+

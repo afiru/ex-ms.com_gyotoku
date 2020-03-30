@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import 'sass_base/mixin';
+@import 'sass_base/animate';
+@import 'sass_base/icon_arrow';
+@import '_mysetting';
+
+//基本設定
+ul,li,dd,dt,dh {
+    list-style: none;
+}
+svg {
+    display: block;
+}
+
+.pc_only {
+    @include pc_only();
+}
+.sp_only {
+    @include sp_only();
+}
+.pc_display_flex_center {
+    @include media($pc){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    @include media($tab) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    @include media($sp) {
+        display: none;
+    }
+}
+.sp_display_flex_center {
+    @include media($pc){
+        display: none;
+    }
+    @include media($tab) {
+        display: none;
+    }
+    @include media($sp) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.wapper {
+    @include wapper_setting();
+    
+}
+.t_center {
+    text-align: center;
+}
+@for $i from 0 through 30 {
+    $list : $i * 10;
+    .margin_#{$list} {
+        @include marginPercent(1920 , $list , auto , 0 , auto );
+    }
+    .margin_wapper_#{$list} {
+        @include marginPercent($pc_wapper_size_pxnone , $list , auto , 0 , auto );
+    }
+    @for $x from 0 through 30 {
+	$listx : $x * 10;
+	.padding_top_#{$i * 10}_bottom_#{$x * 10} {
+		@include paddingPercent(1920 , $list , 0 , $listx , 0);
+	}
+	.padding_wapper_top_#{$i * 10}_bottom_#{$x * 10} {
+		@include paddingPercent($pc_wapper_size_pxnone , $list , 0 , $listx , 0);
+	}
+    }
+}
+.kinout_text {
+  text-align: justify;
+  text-justify: inter-ideograph;    
+}
+.color_808080 {
+    color: #808080;
+}
+.back_808080{
+    background: #808080;
+} 
+.color_fff{
+    color: #FFF;
+}
+.movie_close_button_wap{
+    @include ontener_width(900 , 450 );
+    @include marginPercent(900 , 60 , auto , 0 , auto );
+    a {
+        text-align: center;
+        text-decoration: none;
+        @include paddingPercent(450 , 15 , 0 , 15 , 0 );
+        @include buttontype14(#29628F,#00447A,2px,#FFF,#00447A,#00447A,#FFF); display:block;
+    }     
+}
+
+
+//トップページ部分
+@import 'main_include/index/_index';
+//access
+@import 'main_include/page/_access';
+@import 'main_include/page/_location';
+//フッター部分
+@import 'main_include/footer/_footer';
+//プラン詳細
+@import 'main_include/page/_plan_after';
+//マップ
+@import 'main_include/page/_map';
+
+@import 'main_include/page/_design';
+
+
+@import 'main_include/page/_modelroom';
+@import 'main_include/page/_equipment';
+@import 'lightbox.min';

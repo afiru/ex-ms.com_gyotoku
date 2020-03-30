@@ -1,0 +1,30 @@
+【エクセレントシティ物件HP　フッター物件一覧スライダー　埋め込みタグ（ReCI20190917）】
+
+
+エクセレントシティ物件HP共通で、現在本サイトがある物件の一覧を表示させることとなりました。
+つきましては、間取り、地図などでPOPUPウィンドウにしているページ以外の全ページに、
+下記タグを設置いただきますようよろしくお願いいたします。
+制作会社様でのCSS調整は不要です。
+
+
+
+●各物件の埋め込み先ページ下部　jQueryの後、</body>前の「img.ak.impact-ad.jp」タグの直前に下記３つのJS読み込みを設置
+※動作には各ページjQueryが必要です。CDNもしくはjQueryファイルを各ページ下記の前に設定してください。
+
+
+<!--物件共通フッター一覧スライダー用-->
+<script type="text/javascript" src="//www.ex-ms.com/commonSlideFoot/reci/common_utils.min.js"></script>
+<script type="text/javascript" src="//www.ex-ms.com/commonSlideFoot/reci/slides_list_utils.min.js"></script>
+<script type="text/javascript" src="//www.ex-ms.com/commonSlideFoot/slide_foot.js"></script>
+<!--//物件共通フッター一覧スライダー用-->
+
+
+
+
+●各物件の埋め込み先ページ　の出力先（コピーライトの直前）に下記を追加
+※親要素はwidth:100%を指定してください。
+
+
+<!--物件共通フッター一覧スライダー-->
+<div id="slide_foot"></div>
+<!--//物件共通フッター一覧スライダー-->

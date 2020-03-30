@@ -1,0 +1,30 @@
+●新日本建設様物件サイト ReCI用gtag
+※リクルート予約システム用クロスドメイントラッキング
+
+
+<head>直下が推奨ですが、困難であれば</head>直前に設置ください。
+
+
+タグはここから
+=====================================================
+
+
+
+<!-- Global site tag (gtag.js) - ReCI20180831crossdomaintracking-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-19770790-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-19770790-5',{
+  'linker': {
+    'domains': ['airrsv.net']
+  }
+});
+</script>
+
+
+
+=====================================================
+タグはここまで

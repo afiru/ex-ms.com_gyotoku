@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import '../../sass_base/mixin';
+@import '../../sass_base/animate';
+@import '../../sass_base/icon_arrow';
+.color_8F0019 {
+    color: #8F0019;
+}
+
+.main_plan_contenr_contents_h2 {
+    @include rs_font_size(20px,1.953125vw,4.8vw);
+    //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 18px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    line-height: 1.75;
+    font-weight: normal;
+}
+.plan_main_loop_sec {
+    @include media($sp){
+        @include ontener_width(375 , 350);
+        margin: 0 auto;
+    }
+    li {
+        @include ontener_width(960 , 305);
+        @include marginPercent(960 , 0 , 0 , 30 , 0 );
+        &:nth-child(3n+2){
+            // @include marginPercent(270 , 20 , auto , 20 , auto);
+        }
+        @include media($sp){
+            @include paddingPercent(375 , 26 , 0 , 0 , 0);
+            width: 100%;
+            &:nth-child(3n+2){
+                //  @include marginPercent(960 , 0 , 0 , 30 , 0 );
+            }
+        }
+    }
+    a {
+        display: block;
+        text-decoration: none;
+    }
+    .button_plan_main_loop_sec {
+        @include marginPercent(305 , 10 , 0 , 0 , 0 );
+        @include paddingPercent(305 , 10 , 0 , 10 , 0 );
+        text-align: center;
+        color: #FFF;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        @include rs_font_size(12px,1.171875vw,3.6826666666666665vw);
+        //フォント（px）【PC】:12pxpx |【Tab】12px |【sp】 13.81px
+        //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+        @include buttontype14(#805A63,#805A63,2px,#FFF,#FFF,#805A63,#805A63); display:block;
+    }
+}
