@@ -48,9 +48,9 @@
         <img src="img/index/title_index_add_pref_area_h2.svg" alt="資料請求">
     </h2>
     <!-- <p class=" t_center color_BE0D23 margin_wapper_60 top_pref_index_add_pref_area">4月上旬</p> -->
-    <p class=" t_center color_BE0D23 margin_wapper_20 middle_pref_index_add_pref_area">4月11日<span style="font-size: 90%;">（土）</span>より<br>事前説明会開催<br class="sp_only"><span style="font-size: 70%;">[予約制]</span></p>
+    <p class="mintyou t_center color_BE0D23 margin_wapper_20 middle_pref_index_add_pref_area">4月11日<span style="font-size: 90%;">(土)</span>より<br>事前説明会開催<br class="sp_only"><span style="font-size: 70%;">[予約制]</span></p>
          <!-- <br class="sp_only"><span style="text-align: center;margin-top: 10px; font-size:35px;">［予約制］</span> -->
-    <p class=" t_center color_BE0D23 margin_wapper_20 bottom_pref_index_add_pref_area">資料請求受付中</p>
+    <p class="mintyou t_center color_BE0D23 margin_wapper_20 bottom_pref_index_add_pref_area">資料請求受付中</p>
 
     <!--コロナ対応のお知らせ-->
     <link rel="stylesheet" rev="stylesheet" href="//www.ex-ms.com/css/special.css" type="text/css" media="screen,print" />
