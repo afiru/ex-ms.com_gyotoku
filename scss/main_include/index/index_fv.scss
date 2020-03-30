@@ -52,12 +52,13 @@
     @include ontener_width(960 , 960);
     margin: 0 auto;
     @include media($sp) {
-        @include ontener_width(375 , 322.8076);
+        width: 100%;
+        /*@include ontener_width(375 , 322.8076);*/
     }
 }
 .index_main_slider_after_contents_main_catch_02{
     @include media($sp) {
-        @include ontener_width(375 , 293.5859);
+        /*@include ontener_width(375 , 293.5859);*/
     }
 }
 
