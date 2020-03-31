@@ -53,7 +53,7 @@ else {
             <nav class="contact_tel ">
                 <ul class="display_flex_center contact_tel_ul">
                     <li class="header_button_contact_li">
-                        <a class="button_EE9B19" href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2070" target="_blank">
+                        <a class="button_EE9B19" href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2110" target="_blank">
                            資料請求
                         </a>
                     </li>
