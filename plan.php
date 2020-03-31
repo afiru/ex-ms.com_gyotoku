@@ -11,7 +11,7 @@
     <div class="wapper plan_main_wapper">
         <section class="main_plan_contenr">
             <h2 class="t_center main_plan_contenr_contents_h2">
-                西向き住戸<span class="main_plan_contenr_contents_h2_span">約85%</span><br class="sp_only">充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン
+                南西向き住戸<span class="main_plan_contenr_contents_h2_span">約85%</span><br class="sp_only">充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン
             </h2>
         </section>
         <!--<ul class="margin_wapper_50 display_flex_stretch display_row plan_main_loop_sec">
