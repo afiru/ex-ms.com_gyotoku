@@ -55,7 +55,7 @@
 <nav class="margin_80 wapper index_top_nav">
     <ul class="display_flex_stretch display_row index_top_nav_ul">
         <li class="index_top_nav_ul_li">
-            <a href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2070" target="_blank">
+            <a href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2110" target="_blank">
                 <img src="img/index/button_index_top_nav_ul_li_01.svg" alt="資料請求">
             </a>
         </li>
@@ -71,7 +71,7 @@
 </nav>
 
 <div class="margin_100 wapper bunner_plan_bottom_wap">
-    <a class="bunner_plan_bottom_link" href="" target="_blank">
+    <a class="bunner_plan_bottom_link" href="http://www.shinnihon-c.co.jp/zeh-m/" target="_blank">
         <picture>
             <source class="lazy" media="(min-width: 768px)" srcset="img/plan/bunner_plan_bottom_link_pc.png"><!--PC画像-->
             <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/bunner_plan_bottom_link_sp.png"><!--SP画像-->
