@@ -44,7 +44,7 @@ else {
                     </li>
                     <?php endif; ?>
                     <li class="t_center now_annai_outline_nav_ul_outline">
-                        <a href="https://www.ex-ms.com/outline/haijima.html" target="_blnak" class="">
+                        <a href="https://www.ex-ms.com/gs55/" target="_blnak" class="">
                             <span class="arrow">物件概要</span>
                         </a>
                     </li>
