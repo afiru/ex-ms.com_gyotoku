@@ -11,7 +11,7 @@
     <div class="wapper plan_main_wapper">
         <section class="main_plan_contenr">
             <h2 class="t_center main_plan_contenr_contents_h2">
-                西向き住戸約<span class="main_plan_contenr_contents_h2_span">85%</span><br class="sp_only">充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン
+                南西向き住戸<span class="main_plan_contenr_contents_h2_span">約85%</span><br class="sp_only">充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン
             </h2>
         </section>
         <!--<ul class="margin_wapper_50 display_flex_stretch display_row plan_main_loop_sec">
@@ -70,15 +70,15 @@
     </ul>
 </nav>
 
-<div class="margin_100 wapper bunner_plan_bottom_wap">
+<!--<div class="margin_100 wapper bunner_plan_bottom_wap">
     <a class="bunner_plan_bottom_link" href="http://www.shinnihon-c.co.jp/zeh-m/" target="_blank">
         <picture>
-            <source class="lazy" media="(min-width: 768px)" srcset="img/plan/bunner_plan_bottom_link_pc.png"><!--PC画像-->
-            <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/bunner_plan_bottom_link_sp.png"><!--SP画像-->
+            <source class="lazy" media="(min-width: 768px)" srcset="img/plan/bunner_plan_bottom_link_pc.png">
+            <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/bunner_plan_bottom_link_sp.png">
             <img src="img/plan/bunner_plan_bottom_link_pc.png" alt="aタイプ">
         </picture>
     </a>
-</div>
+</div>-->
 
 <div class="margin_40 padding_top_30_bottom_30 index_special_movie">
     <div class="wapper">

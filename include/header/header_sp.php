@@ -91,7 +91,7 @@ else {
         </ul>
         <ul class=" sp_main_header_nav_ul">
             <li class="sp_main_header_nav_ul_li sp_li_arrow_comming">
-                <a href="https://www.ex-ms.com/gs55/" target="_blank" class="display_flex_center sp_main_header_nav_ul_li_a">
+                <a href="https://www.ex-ms.com/outline/gs55.html" target="_blank" class="display_flex_center sp_main_header_nav_ul_li_a">
                     <h3 class="sp_main_header_nav_ul_li_h3">物件概要</h3>
                 </a>
             </li>
