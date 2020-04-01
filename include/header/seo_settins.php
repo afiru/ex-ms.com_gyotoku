@@ -1,6 +1,6 @@
 <?php
-$base_title ="【公式】エクセレントシティ拝島駅前｜JR中央線直通「拝島」駅より徒歩２分の新築分譲マンション";
-$base_description = "新日本建設の新築分譲マンション『エクセレントシティ拝島駅前』の公式ホームページです。JR中央線直通「拝島」駅より徒歩２分";
+$base_title ="【公式】エクセレントシティ行徳駅前｜東京メトロ東西線「行徳」駅より徒歩5 分の新築分譲マンション";
+$base_description = "新日本建設の新築分譲マンション『エクセレントシティ行徳駅前』の公式ホームページです。 東京メトロ東西線「行徳」駅より徒歩5 分";
 $url = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 if(strpos($url,'plan') !== false) {
     $title = "ルームプラン｜".$base_title;
@@ -41,5 +41,5 @@ else {
 ?>
 
 <title><?php echo $title; ?></title>
-<meta name="keywords" content="エクセレントシティ拝島駅前,東京都,昭島市,松原町,マンション,青梅線,新築,分譲,エクセレントシティ,不動産,住まい,新日本建設" />
+<meta name="keywords" content="エクセレントシティ行徳駅前, 千葉県, 市川市, 行徳駅前, マンション, 東京メトロ,東西線, 新築, 分譲, エクセレントシティ, 不動産, 住まい, 新日本建設" />
 <meta name="description" content="<?php echo $description; ?>" />
