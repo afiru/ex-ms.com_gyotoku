@@ -83,6 +83,14 @@
 
     <div class="margin_80 padding_top_30_bottom_30 index_special_movie">
         <div class="wapper">
+            <p class="bnr" style="text-align: center;margin-bottom:10px;">
+                <a href="https://www.ex-ms.com/concept/" target="_blank" style="display:inline-block;    margin: 0 10px;">
+                    <img src="img/banner_policy.jpg" style="max-width:435px; " alt="ブランドポリシー">
+                </a>
+                <a href="https://suumo.jp/jj/guide/shosai/JJ081FD001/?ar=030&hp=007057004" target="_blank" style="display:inline-block;    margin: 0 10px;">
+                    <img src="img/suumo.jpg" style="max-width:435px; " alt="SUUMO 不動産会社ガイド">
+                </a>
+            </p>
             <a class="index_special_movie_link_box" href="javascript:;" onclick="window.open('movie.php', '', 'width=910,height=800,scrollbars=yes'); return false;">
                 <img src="img/index/button_index_special_movie_link_box.png" alt="エクセレントウォーター動画">
             </a>
