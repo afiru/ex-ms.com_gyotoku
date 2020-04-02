@@ -679,8 +679,46 @@ html {
   text-decoration: none;
   font-size: 16px;
   text-align: center;
-  /*padding: 10px 0;*/
-  /*@include buttontype14(#009fe8,#009fe8,1px,#FFF,#FFF,#FFF,#009fe8); display:block;*/ }
+  padding: 10px 0;
+  border: 1px solid #009fe8;
+  transition-duration: 0.25s;
+  background: #009fe8;
+  color: #FFF;
+  z-index: 2;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  display: block; }
+  .button_B40732:after {
+    content: '';
+    display: block;
+    z-index: -2;
+    transition-duration: 0.5s;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    width: 150%;
+    height: 150%;
+    background: #009fe8; }
+  .button_B40732:before {
+    content: '';
+    display: block;
+    z-index: -1;
+    transition-duration: 0.5s;
+    position: absolute;
+    left: -5%;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background: #FFF; }
+  .button_B40732:hover {
+    overflow: hidden;
+    background: none;
+    color: #009fe8;
+    border: 1px solid #FFF; }
+    .button_B40732:hover:before {
+      height: 100%;
+      width: 110%; }
 
 .button_B40732 img {
   display: block;
@@ -703,7 +741,7 @@ html {
     width: 50%; }
 
 .contact_tel_ul {
-  background-color: #009fe8; }
+  /*background-color: #009fe8;*/ }
 
 .header_button_contact_li_tel {
   text-align: center; }

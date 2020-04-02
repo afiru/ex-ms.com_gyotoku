@@ -7,7 +7,7 @@
                 </a>
             </li>
             <li class="sp_bottom_tuijuu_ul_li">
-                <a href="tel:0120171180">
+                <a href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
                     <img src="img/header/button_header_contact_sp.svg" alt="電話で問い合わせ">
                 </a>
             </li>
