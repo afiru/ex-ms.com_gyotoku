@@ -52,13 +52,65 @@
          <!-- <br class="sp_only"><span style="text-align: center;margin-top: 10px; font-size:35px;">［予約制］</span> -->
     <p class="mintyou t_center color_BE0D23 margin_wapper_20 bottom_pref_index_add_pref_area">資料請求受付中</p>
 
+
+
+    <!-- 予約表 -->
+    <div class="calendar mincho">
+        <h3>ご予約状況表</h3>
+        <p class="txt"><span><i class="material-icons" style="color:#bc4937">panorama_fish_eye</i></span> ご案内可能　<span><i class="material-icons" style="color:#2367c6">change_history</i></span> 空席わずか</p>
+        <table>
+            <tbody>
+                <tr>
+                    <th class="day"></th>
+                    <th class="sat">4/11<br class="">
+                        <small> (土)</small></th>
+                    <th class="sun">4/12<br class="">
+                        <small> (日)</small></th>
+                    <th class="sat">4/18<br class="">
+                        <small> (土)</small></th>
+                    <th class="sun">4/19<br class="">
+                        <small> (日)</small></th>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td class="full">満席</td>
+                    <td class="full">満席</td>
+                    <td class="full">満席</td>
+                    <td class="little"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">change_history</i></a></td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td class="full">満席</td>
+                    <td class="full">満席</td>
+                    <td class="full">満席</td>
+                    <td class="little"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">change_history</i></a></td>
+                </tr>
+                <tr>
+                    <td>16:00</td>
+                    <td class="full">満席</td>
+                    <td class="full">満席</td>
+                    <td class="little"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">change_history</i></a></td>
+                    <td class="little"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">change_history</i></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <!--凡例
+            <td class="able"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">panorama_fish_eye</i></a></td>
+            <td class="little"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">change_history</i></a></td>
+            <td class="full"><i class="material-icons">close</i></td>
+            <td class="full">満席</td>
+            <td class="close">─</td>
+        凡例-->
+        <!--<p class="chu" style="font-size:14px;">※平日もご予約可能です。</p>-->
+    </div>
+
     <!--コロナ対応のお知らせ-->
     <link rel="stylesheet" rev="stylesheet" href="//www.ex-ms.com/css/special.css" type="text/css" media="screen,print" />
-<!--    <div class="txtCorona mincho">
+<div class="txtCorona mincho">
         <a href="https://www.ex-ms.com/info/20200323.php" target="_blank">
     &#8250; 新型コロナウイルスへの感染、流行拡大の防止策について
         </a>
-    </div>-->
+    </div>
     
 </div>
 <main class="main_index">
@@ -70,10 +122,7 @@
                 </a>
             </li>
             <li class="index_top_nav_ul_li">
-                <span class="pc_only">
-                    <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
-                </span>
-                <a class="sp_only" href="tel:0120171180" title="_blank">
+                <a href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
                     <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
                 </a>
             </li>
