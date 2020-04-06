@@ -12,7 +12,7 @@
         <section class="main_plan_contenr">
             <h2 class="t_center main_plan_contenr_contents_h2">
                 南西向き住戸<span class="main_plan_contenr_contents_h2_span">約85%</span><br class="sp_only">充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン<br>
-                豊富なプラン「<span class="main_plan_contenr_contents_h2_span">1～3LDK</span>」全<span class="main_plan_contenr_contents_h2_span">11</span>タイプ<span class="main_plan_contenr_contents_h2_span">19</span>バリエーション
+                豊富なプラン「<span class="main_plan_contenr_contents_h2_span">1～3LDK</span>」<br class="sp_only">全<span class="main_plan_contenr_contents_h2_span">11</span>タイプ<span class="main_plan_contenr_contents_h2_span">19</span>バリエーション
             </h2>
         </section>
 <!--        <ul class="margin_wapper_100 display_flex_stretch display_row plan_main_loop_sec">
