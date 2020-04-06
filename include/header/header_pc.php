@@ -58,9 +58,9 @@ else {
                         </a>
                     </li>
                     <li class="header_button_contact_li">
-                        <span class="button_B40732">
-                            <img src="img/header/header_contact_tel.png">
-                        </span>
+                        <a class="button_B40732" href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
+                            来場予約
+                        </a>
                     </li>
                 </ul>
             </nav>
