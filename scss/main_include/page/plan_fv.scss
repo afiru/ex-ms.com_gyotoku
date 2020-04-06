@@ -14,21 +14,22 @@
     font-weight: normal;
 }
 .plan_main_loop_sec {
+    justify-content: flex-start;
     @include media($sp){
         @include ontener_width(375 , 350);
         margin: 0 auto;
     }
     li {
-        /*@include ontener_width(960 , 305);*/
-        @include marginPercent(960 , 0 , 0 , 30 , 0 );
-        &:nth-child(3n+2){
-            // @include marginPercent(270 , 20 , auto , 20 , auto);
+        @include ontener_width(960 , 305);
+        @include marginPercent(960 , 0 , 20 , 55 , 0 );
+        &:nth-child(3n){
+            @include marginPercent(960 , 0 , 0 , 55 , 0);
         }
         @include media($sp){
             @include paddingPercent(375 , 26 , 0 , 0 , 0);
             width: 100%;
-            &:nth-child(3n+2){
-                //  @include marginPercent(960 , 0 , 0 , 30 , 0 );
+            &:nth-child(3n){
+                @include marginPercent(375 , 26 , 0 , 0 , 0 );
             }
         }
     }

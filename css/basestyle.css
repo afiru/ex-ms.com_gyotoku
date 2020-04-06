@@ -7201,7 +7201,8 @@ html {
       background-image: linear-gradient(20,27); } }
 
 .link_plan_one_column {
-  width: 62.5%; }
+  /*@include ontener_width(960 , 305);*/
+  width: 100%; }
   @media screen and (max-width: 768px) {
     .link_plan_one_column {
       width: 94.66%; } }
@@ -7216,10 +7217,10 @@ html {
   letter-spacing: 0.06em; }
   @media screen and (min-width: 1025px) {
     .button_link_plan_one_column {
-      font-size: 20px; } }
+      font-size: 12px; } }
   @media print, screen and (max-width: 1024px) {
     .button_link_plan_one_column {
-      font-size: 1.95313vw; } }
+      font-size: 1.17188vw; } }
   @media screen and (max-width: 768px) {
     .button_link_plan_one_column {
       font-size: 5.33333vw; } }

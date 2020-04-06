@@ -11,10 +11,11 @@
     <div class="wapper plan_main_wapper">
         <section class="main_plan_contenr">
             <h2 class="t_center main_plan_contenr_contents_h2">
-                南西向き住戸<span class="main_plan_contenr_contents_h2_span">約85%</span><br class="sp_only">充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン
+                南西向き住戸<span class="main_plan_contenr_contents_h2_span">約85%</span><br class="sp_only">充実設備の<span class="main_plan_contenr_contents_h2_span">3LDK</span>中心プラン<br>
+                豊富なプラン「<span class="main_plan_contenr_contents_h2_span">1～3LDK</span>」全<span class="main_plan_contenr_contents_h2_span">11</span>タイプ<span class="main_plan_contenr_contents_h2_span">19</span>バリエーション
             </h2>
         </section>
-        <!--<ul class="margin_wapper_50 display_flex_stretch display_row plan_main_loop_sec">
+<!--        <ul class="margin_wapper_100 display_flex_stretch display_row plan_main_loop_sec">
             <li>
                 <a href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_a', '', 'width=1024,height=768,scrollbars=yes'); return false;">
                     <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
@@ -22,19 +23,150 @@
                 </a>
             </li>
         </ul>-->
-        <div class="margin_wapper_100 pic_buttons">
-            <figure class="bunner_plan_one_column">
-                <picture>
-                    <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_a.png"><!--PC画像-->
-                    <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_a_sp.png"><!--SP画像-->
-                    <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
-                </picture>
-            </figure>
+        <ul class="margin_wapper_100 pic_buttons display_flex_stretch display_row plan_main_loop_sec">
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_a.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_a_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
              
-             <div class="margin_wapper_100 link_plan_one_column">
-                 <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_a', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
-             </div>
-        </div>
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_a', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_b.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_b_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_b', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_c.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_c_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_c', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_d.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_d_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_d', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+                <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_e.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_e_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_e', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_f.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_f_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_f', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_g.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_g_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_g', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_h.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_h_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_h', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_i.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_i_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_i', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_j.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_j_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_j', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+            <li>
+                <figure class="bunner_plan_one_column">
+                    <picture>
+                        <source class="lazy" media="(min-width: 768px)" srcset="img/plan/thumbs_plan_k.png"><!-- PC画像 -->
+                        <source class="lazy"  media="(max-width: 768px)" srcset="img/plan/thumbs_plan_k_sp.png"><!-- SP画像 -->
+                        <img src="img/plan/thumbs_plan_a.png" alt="aタイプ">
+                    </picture>
+                </figure>
+             
+                <div class="margin_wapper_100 link_plan_one_column">
+                    <a class="button_link_plan_one_column" href="javascript:;" onclick="window.open('plan_detail.php?plan=plank_k', '', 'width=1024,height=768,scrollbars=yes'); return false;">詳細情報を見る</a>
+                </div>
+            </li>
+        </ul>
         <section class="margin_wapper_80 plan_contents_setumei">
             <p class="plan_contents_setumei_pref">
                 凡例：
