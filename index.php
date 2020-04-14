@@ -108,7 +108,7 @@
     <link rel="stylesheet" rev="stylesheet" href="//www.ex-ms.com/css/special.css" type="text/css" media="screen,print" />
 <div class="txtCorona mincho">
         <a href="https://www.ex-ms.com/info/20200323.php" target="_blank">
-    &#8250; 新型コロナウイルスへの感染、流行拡大の防止策について
+    &#8250; 新型コロナウイルスへの感染、流行拡大の防止策および営業時間短縮のお知らせ
         </a>
     </div>
     
