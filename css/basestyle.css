@@ -7364,6 +7364,21 @@ html {
 .design_landp_plan {
   background-color: #f0efee; }
 
+.design_landp_plan_figure {
+  width: 48.97%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto; }
+  @media screen and (max-width: 768px) {
+    .design_landp_plan_figure {
+      width: 97.33%;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 4% 0% 1.33% 0%; } }
+
 .design_innner_corridor {
   margin-top: 5.2%;
   margin-bottom: 0%;
@@ -7372,7 +7387,8 @@ html {
 
 @media screen and (max-width: 768px) {
   .design_innner_corridor_wap {
-    margin-top: 19.71%;
+    width: 93.33%;
+    margin-top: 2.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto; } }
@@ -7391,9 +7407,8 @@ html {
 
 @media screen and (max-width: 768px) {
   .top_page_design_contentnts {
-    width: 94.66%;
-    margin-top: 16%;
-    margin-bottom: 0%;
+    margin-top: 5.33%;
+    margin-bottom: 5.33%;
     margin-left: auto;
     margin-right: auto; } }
 

@@ -4,7 +4,7 @@
     <div class="text_box">
         <h1 class="t_center color_fff mintyou">MODEL ROOM</h1>
         <p class="mintyou color_fff t_center main_plan_contenr_contents_p">
-            光が踊る。安らぎが満ちる。上質が包み込む、深い寛ぎの時間。
+            光が踊る。安らぎが満ちる。<br class="sp_only">上質が包み込む、深い寛ぎの時間。
         </p>
     </div>
 </section>

@@ -77,23 +77,23 @@ else {
                 </a>
             </li>
             <li class="header_main_nav_contents_ul_kenmigawa_li header_main_nav_contents_ul_li_after_right">
-                <span class="<?php echo $activeclass['location']; ?>" href="location.php">
+                <a class="<?php echo $activeclass['location']; ?>" href="location.php">
                     <h3 class="t_center  header_main_nav_contents_ul_li_after_right_title_h3">ロケーション</h3>
-                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">coming soon</ruby>
-                </span>
+                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">LOCATON</ruby>
+                </a>
             </li>
             <li class="header_main_nav_contents_ul_kenmigawa_li header_main_nav_contents_ul_li_after_right">
-                <span class="<?php echo $activeclass['access']; ?>" href="access.php">
+                <a class="<?php echo $activeclass['access']; ?>" href="access.php">
                     <h3 class="t_center  header_main_nav_contents_ul_li_after_right_title_h3">アクセス</h3>
-                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">coming soon</ruby>
-                </span>
+                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">ACCESS</ruby>
+                </a>
             </li>
 
             <li class="header_main_nav_contents_ul_kenmigawa_li header_main_nav_contents_ul_li_after_right">
-                <span class="<?php echo $activeclass['design']; ?>" href="design.php">
+                <a class="<?php echo $activeclass['design']; ?>" href="design.php">
                     <h3 class="t_center  header_main_nav_contents_ul_li_after_right_title_h3">デザイン</h3>
-                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">coming soon</ruby>
-                </span>
+                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">DESIGN</ruby>
+                </a>
             </li>
             <li class="header_main_nav_contents_ul_kenmigawa_li header_main_nav_contents_ul_li_after_right">
                 <a class="<?php echo $activeclass['plan']; ?>" href="plan.php" class="header_nav_comming_soon">
@@ -102,10 +102,10 @@ else {
                 </a>
             </li>
             <li class="header_main_nav_contents_ul_kenmigawa_li header_main_nav_contents_ul_li_after_right">
-                <span class="<?php echo $activeclass['modelroom']; ?>" href="modelroom.php">
+                <a class="<?php echo $activeclass['modelroom']; ?>" href="modelroom.php">
                     <h3 class="t_center  header_main_nav_contents_ul_li_after_right_title_h3">モデルルーム</h3>
-                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">coming soon</ruby>
-                </span>
+                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">MODEL ROOM</ruby>
+                </a>
             </li>
             <li class="header_main_nav_contents_ul_kenmigawa_li">
                 <span class="<?php echo $activeclass['equipment']; ?>" href="equipment.php">
