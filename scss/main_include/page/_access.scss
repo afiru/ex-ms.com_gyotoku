@@ -10,17 +10,46 @@
         background: url(../img/access/access_top_sp.jpg) no-repeat center center;
         background-size: cover; 
     }
+    .text_box{
+        width: 100%;
+/*        @include ontener_width(1920 , 778 );
+        @include marginPercent(1920 , 0 , auto , 0 , auto );*/
+        @include media($sp) {
+/*            @include ontener_width(375 ,335 );
+            @include marginPercent(375 , 0 , auto , 0 , auto );*/
+        }
+    }
     h1 {
-        color: #231815;
+/*        display: flex;
+        justify-content: center;
+        align-items: center;*/
+        @include paddingPercent(1920 , 0 , 0 , 10 , 0);
+        background: url(../img/access/under_page_contents_access_h1.png) center no-repeat;
+        background-size: contain;
+        color: #fff;
         @include rs_font_size(30px,2.9296875vw,4vw);
         //フォント（px）【PC】:30pxpx |【Tab】30px |【sp】 15px
         //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
     }
     p {
-        color: #231815;
+/*        display: flex;
+        justify-content: center;
+        align-items: center;*/
+        @include paddingPercent(1920 , 10 , 0 , 10 , 0);
+        @include marginPercent(1920 , 10 , auto , 0 , auto );
+        background: url(../img/access/under_page_contents_access_p.png) center no-repeat;
+        background-size: contain;
+        color: #fff;
         @include rs_font_size(20px,1.953125vw,3.7333333333333334vw);
         //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 14px
         //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+        @include media($sp) {
+            background: url(../img/access/under_page_contents_access_p_sp.png) center no-repeat;
+            background-size: cover;
+            @include media($sp) {
+                @include paddingPercent(375 , 5 , 0 ,5 , 0);
+            }
+        }
     }
 }
 .back_FCF9E8 {
@@ -29,12 +58,31 @@
 
 
 .access_main_h1 {
+    @include paddingPercent(960 , 0 , 0 , 5 , 0);
+}
+.access_main_h1 {
     font-variant: 400;
     line-height: 1.55555555556;
-    letter-spacing: 0.4em;
-    @include rs_font_size(42.14px,4.115234375vw,4.8vw);
-    //フォント（px）【PC】:42.14pxpx |【Tab】42.14px |【sp】 18px
+    letter-spacing: 0.12em;
+    @include rs_font_size(52px,5.078125vw,6.933333333333334vw);
+    //フォント（px）【PC】:52pxpx |【Tab】52px |【sp】 26px
     //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    color:#001b44;
+    border-bottom: 1px solid #001b44;
+    @include media($sp) {
+        letter-spacing:0;
+    }
+}
+.access_main_sub_p{
+    @include marginPercent(960 , 30 , auto , 0 , auto );
+}
+.access_main_sub_p{
+    color:#001b44;
+    @include rs_font_size(35px,3.41796875vw,6.666666666666667vw);
+    //フォント（px）【PC】:35pxpx |【Tab】35px |【sp】 25px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    letter-spacing: 0.12em;
+    font-weight: bold;
 }
 .access_main_p {
     @include marginPercent(960 , 75 , 0 , 0 , 0);
@@ -43,11 +91,16 @@
     @include rs_font_size(20px,1.953125vw,4vw);
     //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 15px
     //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(375 , 360 );
+        @include marginPercent(375 , 25 , auto , 0 , auto );
+        letter-spacing: -0.1em;
+    }
 }
 .access_main_road_map_figure {
     @include marginPercent(960 , 70 , 0 , 0 , 0);
     @include media($sp) {
-        @include ontener_width(375 , 353.062);
+        width: 100%;
         @include marginPercent(375 , 35 , auto , 0 , auto );
     }
 }
@@ -69,7 +122,8 @@
 }
 
 .access_smooth {
-    @include paddingPercent(1920 , 90 , 0 , 90 , 0 );
+    /*@include paddingPercent(1920 , 90 , 0 , 90 , 0 );*/
+    background-color: #f0e6dd;
 
 }
 .title_access_smooth_h1 {
@@ -89,9 +143,9 @@
     //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
 }
 .access_smooth_top_figure {
-    @include marginPercent(960 , 50 , 0 , 0 , 0 ); 
+    /*@include marginPercent(960 , 50 , 0 , 0 , 0 );*/ 
     @include media($sp) {
-        @include marginPercent(375 , 36 , auto , 0 , auto );
+        @include marginPercent(375 , 0 , auto , 0 , auto );
         @include ontener_width(375 , 353.359 );
     }
 }

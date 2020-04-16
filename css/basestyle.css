@@ -6479,8 +6479,22 @@ html {
     .under_page_contents_access {
       background: url(../img/access/access_top_sp.jpg) no-repeat center center;
       background-size: cover; } }
+  .under_page_contents_access .text_box {
+    width: 100%;
+    /*        @include ontener_width(1920 , 778 );
+        @include marginPercent(1920 , 0 , auto , 0 , auto );*/ }
+    @media screen and (max-width: 768px) {
+      .under_page_contents_access .text_box {
+        /*            @include ontener_width(375 ,335 );
+            @include marginPercent(375 , 0 , auto , 0 , auto );*/ } }
   .under_page_contents_access h1 {
-    color: #231815; }
+    /*        display: flex;
+        justify-content: center;
+        align-items: center;*/
+    padding: 0% 0% 0.52% 0%;
+    background: url(../img/access/under_page_contents_access_h1.png) center no-repeat;
+    background-size: contain;
+    color: #fff; }
     @media screen and (min-width: 1025px) {
       .under_page_contents_access h1 {
         font-size: 30px; } }
@@ -6491,7 +6505,17 @@ html {
       .under_page_contents_access h1 {
         font-size: 4vw; } }
   .under_page_contents_access p {
-    color: #231815; }
+    /*        display: flex;
+        justify-content: center;
+        align-items: center;*/
+    padding: 0.52% 0% 0.52% 0%;
+    margin-top: 0.52%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/access/under_page_contents_access_p.png) center no-repeat;
+    background-size: contain;
+    color: #fff; }
     @media screen and (min-width: 1025px) {
       .under_page_contents_access p {
         font-size: 20px; } }
@@ -6501,23 +6525,58 @@ html {
     @media screen and (max-width: 768px) {
       .under_page_contents_access p {
         font-size: 3.73333vw; } }
+    @media screen and (max-width: 768px) {
+      .under_page_contents_access p {
+        background: url(../img/access/under_page_contents_access_p_sp.png) center no-repeat;
+        background-size: cover; } }
+  @media screen and (max-width: 768px) and (max-width: 768px) {
+    .under_page_contents_access p {
+      padding: 1.33% 0% 1.33% 0%; } }
 
 .back_FCF9E8 {
   background: #FCF9E8; }
 
 .access_main_h1 {
+  padding: 0% 0% 0.52% 0%; }
+
+.access_main_h1 {
   font-variant: 400;
   line-height: 1.55555555556;
-  letter-spacing: 0.4em; }
+  letter-spacing: 0.12em;
+  color: #001b44;
+  border-bottom: 1px solid #001b44; }
   @media screen and (min-width: 1025px) {
     .access_main_h1 {
-      font-size: 42.14px; } }
+      font-size: 52px; } }
   @media print, screen and (max-width: 1024px) {
     .access_main_h1 {
-      font-size: 4.11523vw; } }
+      font-size: 5.07813vw; } }
   @media screen and (max-width: 768px) {
     .access_main_h1 {
-      font-size: 4.8vw; } }
+      font-size: 6.93333vw; } }
+  @media screen and (max-width: 768px) {
+    .access_main_h1 {
+      letter-spacing: 0; } }
+
+.access_main_sub_p {
+  margin-top: 3.12%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.access_main_sub_p {
+  color: #001b44;
+  letter-spacing: 0.12em;
+  font-weight: bold; }
+  @media screen and (min-width: 1025px) {
+    .access_main_sub_p {
+      font-size: 35px; } }
+  @media print, screen and (max-width: 1024px) {
+    .access_main_sub_p {
+      font-size: 3.41797vw; } }
+  @media screen and (max-width: 768px) {
+    .access_main_sub_p {
+      font-size: 6.66667vw; } }
 
 .access_main_p {
   margin: 7.81% 0% 0% 0%;
@@ -6532,12 +6591,20 @@ html {
   @media screen and (max-width: 768px) {
     .access_main_p {
       font-size: 4vw; } }
+  @media screen and (max-width: 768px) {
+    .access_main_p {
+      width: 96%;
+      margin-top: 6.66%;
+      margin-bottom: 0%;
+      margin-left: auto;
+      margin-right: auto;
+      letter-spacing: -0.1em; } }
 
 .access_main_road_map_figure {
   margin: 7.29% 0% 0% 0%; }
   @media screen and (max-width: 768px) {
     .access_main_road_map_figure {
-      width: 94.14%;
+      width: 100%;
       margin-top: 9.33%;
       margin-bottom: 0%;
       margin-left: auto;
@@ -6568,7 +6635,8 @@ html {
         width: 93.33%; } }
 
 .access_smooth {
-  padding: 4.68% 0% 4.68% 0%; }
+  /*@include paddingPercent(1920 , 90 , 0 , 90 , 0 );*/
+  background-color: #f0e6dd; }
 
 .title_access_smooth_h1 {
   font-variant: 300;
@@ -6599,10 +6667,10 @@ html {
       font-size: 4vw; } }
 
 .access_smooth_top_figure {
-  margin: 5.2% 0% 0% 0%; }
+  /*@include marginPercent(960 , 50 , 0 , 0 , 0 );*/ }
   @media screen and (max-width: 768px) {
     .access_smooth_top_figure {
-      margin-top: 9.6%;
+      margin-top: 0%;
       margin-bottom: 0%;
       margin-left: auto;
       margin-right: auto;

@@ -2,20 +2,25 @@
 <?php include 'include/tuijuu_sp.php'; ?>
 <section class="display_flex_center under_page_contents under_page_contents_access">
     <div class="text_box">
-        <h1 class="t_center color_fff mintyou">ACCESS</h1>
+        <h1 class="t_center color_fff mintyou">Access</h1>
         <p class="mintyou color_fff t_center main_plan_contenr_contents_p">
-            快適のその先に
+            仕事に、遊びに違いを生み出す、<br class="sp_only">都心直結のアクセスパワー
         </p>
     </div>
 </section>
 <main class="padding_top_90_bottom_50 access_main">
     <section class="wapper access_top">
         <h1 class="mintyou t_center access_main_h1">
-            都内各所へスピード感ある<br>
-            アクセスが都営新宿線の魅力。
+            POWERFULLY ACCESS
         </h1>
+        <p class="mintyou t_center access_main_sub_p">都心の主要なエリアへ、<br class="sp_only">スムーズにアクセス。</p>
         <p class="mintyou t_center access_main_p">
-            ビジネス、通学、ショッピングにレジャー。<br>あらゆるシーンで快適なアクセスを実現する都営新宿線。
+            「日本橋」「大手町」とい<br class="sp_only">日本を代表するビジネス街への直通力。<br>
+            そして、沿線の各駅から乗換ひとつで<br>
+            「銀座」「東京」「六本木」「新宿」へと<br class="sp_only">スマートにアプローチする乗換力。<br>
+            通勤・通学、そしてショッピングや友人との待ち合わせも<br>
+            スムーズ＆スピーディな東京メトロ東西線は、<br>
+            都心を一気に身近な存在へと変えてくれることでしょう。
         </p>
         <figure class="access_main_road_map_figure">
             <img class="lazy" data-src="img/access/access_main_road_map_figure.svg" alt="ロードマップ">
@@ -25,106 +30,50 @@
             <picture>
                 <source class="lazy" media="(min-width: 768px)" data-srcset="img/access/pref_access_main_road_detail_pc.png"><!--PC画像-->
                 <source class="lazy"  media="(max-width: 768px)" data-srcset="img/access/pref_access_main_road_detail_sp.png"><!--SP画像-->
-                <img class="lazy" data-src="img/access/pref_access_main_road_detail_pc.png" alt="都営新宿線「船堀」駅より">
+                <img class="lazy" data-src="img/access/pref_access_main_road_detail_pc.png" alt="東京メトロ東西線「行徳」駅より">
             </picture>
-            <figcaption class="access_main_road_detail_figcaption">
-                ※表示分数は平日の日中および通勤時間帯の所要分数で、乗り換え時間・待ち時間は含まれません。
-            </figcaption>
         </figure>
     </section>
 
-    <section class="margin_110 back_FCF9E8 padding_top_40_bottom_50 access_smooth">
+    <section class="margin_110 padding_top_60_bottom_50 access_smooth">
         <div class="wapper sp_wapper_access_smooth">
-            <h1 class="t_center mintyou title_access_smooth_h1">乗り換えも快適、<br class="sp_only">多数の路線とスムーズに接続。</h1>
-            <p class="t_center mintyou pref_title_access_smooth_top">
-                都内を東西に横断する都営新宿線。<br>
-                多数の路線へスムーズに<br class="sp_only">
-                乗り換えられる利便性は、<br class="sp_only">
-                日常の快適さを向上させてくれます。
-            </p>
             <figure class="wapper access_smooth_top_figure">
                 <picture>
                     <source class="lazy" media="(min-width: 768px)" data-srcset="img/access/access_smooth_top_figure_pc.svg"><!--PC画像-->
                     <source class="lazy"  media="(max-width: 768px)" data-srcset="img/access/access_smooth_top_figure_sp.svg"><!--SP画像-->
-                    <img class="lazy" data-src="img/access/access_smooth_top_figure_pc.svg" alt="駅の路線図">
+                    <img class="lazy" data-src="img/ac cess/access_smooth_top_figure_pc.svg" alt="駅の路線図">
                 </picture>
             </figure>
         </div>
     </section>
-
-    <section class="margin_90 wapper access_tukin_rakuraku">
-        <h1 class="t_center mintyou title_access_smooth_h1">混雑率・遅延発生率の低い<br class="sp_only">都営新宿線で楽々通勤。</h1>
-        <p class="t_center mintyou pref_title_access_smooth_top">
-            通勤・通学はなるべく<br class="sp_only">
-            ストレスをなくしたいものです。<br>
-            都営新宿線は都心への<br class="sp_only">
-            アクセスの良さにも関わらず、<br class="sp_only">
-            混雑率と遅延発生率が低いのが魅力です。
-        </p>
-        <figure class="access_tukin_rakurakufigure">
-            <picture>
-                <source class="lazy" media="(min-width: 768px)" data-srcset="img/access/access_tukin_rakurakufigure_pc.svg"><!--PC画像-->
-                <source class="lazy"  media="(max-width: 768px)" data-srcset="img/access/access_tukin_rakurakufigure_sp.svg"><!--SP画像-->
-                <img class="lazy" data-src="img/access/access_tukin_rakurakufigure_pc.svg" alt="駅の路線図">
-            </picture>
-        </figure>
-    </section>
-
-    <section class="margin_140 wapper bus_access">
-        <figure class="bus_access_ruby">
-            <img class="lazy" data-src="img/access/bus_access_bottoms_ruby.svg" alt="駅の路線図">
-        </figure>
-        <h1 class="t_center mintyou title_access_smooth_h1">多彩なバスアクセスで、<br>JR線や東西線の各駅が身近。</h1>
-        <p class="t_center mintyou pref_title_access_smooth_top">
-            バス路線の多彩さも船堀エリアのポイントです。<br>
-            最寄りのバス停は徒歩1分の<br class="sp_only">
-            「陣屋橋」※と「船堀駅前」。<br>
-            錦糸町駅前、新小岩駅前、西葛西駅前など、<br class="sp_only">
-            さまざまな拠点にスムーズにアクセスできます。
-        </p>
-        <p class="t_center mintyou pref_title_access_smooth_top_sub_pref">※葛西駅前方面、船堀駅前方面は徒歩2分</p>
-        <figure class="access_tukin_rakurakufigure">
-            <picture>
-                <source class="lazy" media="(min-width: 768px)" data-srcset="img/access/access_bus_access_figure_pc.png"><!--PC画像-->
-                <source class="lazy"  media="(max-width: 768px)" data-srcset="img/access/access_bus_access_figure_sp.png"><!--SP画像-->
-                <img class="lazy" data-src="img/access/access_bus_access_figure_pc.png" alt="駅の路線図">
-            </picture>
-        </figure>
-    </section>
-
-    <section class="margin_120 wapper bus_access_bottoms">
-        <h1 class="t_center mintyou title_access_smooth_h1">生活に役立つ施設などが<br>バス経由ルートに点在。</h1>
-        <p class="t_center mintyou pref_title_access_smooth_top">
-            各鉄道路線の駅はもちろん、<br class="sp_only">
-            ショッピングゾーンや病院、<br>
-            区役所、公園などさまざまな施設が、<br class="sp_only">
-            バス経由地に所在しています。
-        </p>
-        <figure class="bus_access_bottoms_figure">
-            <picture>
-                <source class="lazy" media="(min-width: 768px)" data-srcset="img/access/bus_access_bottoms_figure_pc.png"><!--PC画像-->
-                <source class="lazy"  media="(max-width: 768px)" data-srcset="img/access/bus_access_bottoms_figure_sp.png"><!--SP画像-->
-                <img class="lazy" data-src="img/access/bus_access_bottoms_figure_pc.png" alt="駅の路線図">
-            </picture>
-        </figure>
-    </section>
-
-    <section class="margin_160 car_access">
-
-    </section>
-    <nav class="margin_80 wapper index_top_nav location_bottom_nav">
+</main>
+<nav class="margin_80 wapper index_top_nav">
         <ul class="display_flex_stretch display_row index_top_nav_ul">
             <li class="index_top_nav_ul_li">
-                <a href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2070" target="_blank">
-                    <img src="img/location/button_index_top_nav_ul_li_01.svg" alt="資料請求">
+                <a href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2110" target="_blank">
+                    <img src="img/index/button_index_top_nav_ul_li_01.svg" alt="資料請求">
                 </a>
             </li>
             <li class="index_top_nav_ul_li">
-                <a href="https://airrsv.net/AKR6399203893/calendar" target="_blank">
-                    <img src="img/location/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ南行徳1丁目」ゲストサロン受付時間：10：00～19：00火・水曜定休（祝日は除く）">
+                <a href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
+                    <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
                 </a>
             </li>
         </ul>
     </nav>
-</main>
+<div class="margin_80 padding_top_0_bottom_30 index_special_movie">
+        <div class="wapper">
+            <p class="bnr" style="text-align: center;margin-bottom:10px;">
+                <a href="https://www.ex-ms.com/concept/" target="_blank" style="display:inline-block;    margin: 0 10px;">
+                    <img src="img/banner_policy.jpg" style="max-width:435px; " alt="ブランドポリシー">
+                </a>
+                <a href="https://suumo.jp/jj/guide/shosai/JJ081FD001/?ar=030&hp=007057004" target="_blank" style="display:inline-block;    margin: 0 10px;">
+                    <img src="img/suumo.jpg" style="max-width:435px; " alt="SUUMO 不動産会社ガイド">
+                </a>
+            </p>
+            <a class="index_special_movie_link_box" href="javascript:;" onclick="window.open('movie.php', '', 'width=910,height=800,scrollbars=yes'); return false;">
+                <img src="img/index/button_index_special_movie_link_box.png" alt="エクセレントウォーター動画">
+            </a>
+        </div>
+    </div>
 <?php include 'include/footer.php'; ?>
