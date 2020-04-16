@@ -42,13 +42,26 @@
     background-color: #f0efee;
 }
 
+.design_landp_plan_figure{
+    @include ontener_width(1960 , 960 );
+    @include marginPercent(960 , 0 , auto , 0 , auto );
+    @include media($sp) {
+        @include ontener_width(375, 365 );
+        @include marginPercent(375 , 0 , auto , 0 , auto );
+        @include paddingPercent(375 , 15 , 0 , 5 , 0);
+    }
+}
+
 .design_innner_corridor {
     @include marginPercent(960 , 50 , auto , 0 , auto );
+    @include media($sp) {
+    }
 }
 
 .design_innner_corridor_wap {
     @include media($sp) {
-        @include marginPercent(355 , 70 , auto , 0 , auto );
+        @include ontener_width(375 , 350 );
+        @include marginPercent(375 , 10 , auto , 0 , auto );
     }
 }
 .design_innner_corridor_wap {
@@ -59,8 +72,7 @@
 
 .top_page_design_contentnts {
     @include media($sp) {
-        @include ontener_width(375 , 355 );
-        @include marginPercent(375 , 60 , auto , 0 , auto );
+        @include marginPercent(375 , 20 , auto , 20 , auto );
     }
 }
 
