@@ -7368,7 +7368,7 @@ html {
       background: url(../img/design/design_top_sp.jpg) no-repeat center center;
       background-size: cover; } }
   .under_page_contents_design h1 {
-    color: #fff; }
+    color: #231815; }
     @media screen and (min-width: 1025px) {
       .under_page_contents_design h1 {
         font-size: 30px; } }
@@ -7379,7 +7379,7 @@ html {
       .under_page_contents_design h1 {
         font-size: 4vw; } }
   .under_page_contents_design p {
-    color: #fff; }
+    color: #231815; }
     @media screen and (min-width: 1025px) {
       .under_page_contents_design p {
         font-size: 20px; } }
@@ -7391,35 +7391,51 @@ html {
         font-size: 3.73333vw; } }
 
 .top_page_design {
-  background: url(../img/design/top_page_design_pc.png) no-repeat center center;
+  background: url(../img/design/top_page_design_pc.jpg) no-repeat top center;
   background-size: cover;
-  height: 1007px; }
+  height: 1554px; }
+  @media print, screen and (max-width: 1024px) {
+    .top_page_design {
+      background-size: auto 90%;
+      height: 1399px; } }
   @media screen and (max-width: 768px) {
     .top_page_design {
-      height: 330.4vw;
-      background: url(../img/design/top_page_design_sp.png) no-repeat center center;
+      height: 373.86vw;
+      background: url(../img/design/top_page_design_sp.jpg) no-repeat center center;
       background-size: cover; } }
 
+.design_landp_plan {
+  background-color: #f0efee; }
+
 .design_innner_corridor {
-  margin-top: 17.7%;
+  margin-top: 5.2%;
   margin-bottom: 0%;
   margin-left: auto;
   margin-right: auto; }
 
-.back_E0DEBD {
-  background: #F7F7EE; }
+@media screen and (max-width: 768px) {
+  .design_innner_corridor_wap {
+    margin-top: 19.71%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media screen and (min-width: 1025px) {
+  .design_innner_corridor_wap {
+    font-size: 13px; } }
+
+@media print, screen and (max-width: 1024px) {
+  .design_innner_corridor_wap {
+    font-size: 1.26953vw; } }
+
+@media screen and (max-width: 768px) {
+  .design_innner_corridor_wap {
+    font-size: 2.93333vw; } }
 
 @media screen and (max-width: 768px) {
   .top_page_design_contentnts {
     width: 94.66%;
     margin-top: 16%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto; } }
-
-@media screen and (max-width: 768px) {
-  .design_innner_corridor {
-    margin-top: 19.71%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto; } }

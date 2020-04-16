@@ -11,34 +11,50 @@
         background-size: cover; 
     }
     h1 {
-        color: #fff;
+        color: #231815;
         @include rs_font_size(30px,2.9296875vw,4vw);
         //フォント（px）【PC】:30pxpx |【Tab】30px |【sp】 15px
         //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
     }
     p {
-        color: #fff;
+        color: #231815;
         @include rs_font_size(20px,1.953125vw,3.7333333333333334vw);
         //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 14px
         //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
     }
 }
 .top_page_design {
-    background: url(../img/design/top_page_design_pc.png) no-repeat center center;
+    background: url(../img/design/top_page_design_pc.jpg) no-repeat top center;
     background-size: cover;
-    height: 1007px;
+    height: 1554px;
+    @include media($tab) {
+        background-size: auto 90%;
+        height: 1399px;
+    }
     @include media($sp) {
-        height: 330.4vw;
-        background: url(../img/design/top_page_design_sp.png) no-repeat center center;
+        height: 373.86vw;
+        background: url(../img/design/top_page_design_sp.jpg) no-repeat center center;
         background-size: cover; 
     }  
 }
 
-.design_innner_corridor {
-    @include marginPercent(960 , 170 , auto , 0 , auto );
+.design_landp_plan{
+    background-color: #f0efee;
 }
-.back_E0DEBD {
-    background: #F7F7EE;
+
+.design_innner_corridor {
+    @include marginPercent(960 , 50 , auto , 0 , auto );
+}
+
+.design_innner_corridor_wap {
+    @include media($sp) {
+        @include marginPercent(355 , 70 , auto , 0 , auto );
+    }
+}
+.design_innner_corridor_wap {
+    @include rs_font_size(13px,1.26953125vw,2.933333333333333vw);
+    //フォント（px）【PC】:13pxpx |【Tab】13px |【sp】 11px
+    //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
 }
 
 .top_page_design_contentnts {
@@ -47,11 +63,7 @@
         @include marginPercent(375 , 60 , auto , 0 , auto );
     }
 }
-.design_innner_corridor {
-    @include media($sp) {
-        @include marginPercent(355 , 70 , auto , 0 , auto );
-    }
-}
+
 
 .design_bottom_sec {
     @include media($sp) {
