@@ -7383,7 +7383,7 @@ html {
   box-sizing: inherit; }
 
 .under_page_contents_modelroom {
-  background: url(../img/modelroom/under_page_contents_modelroom.png) no-repeat top center;
+  background: url(../img/modelroom/under_page_contents_modelroom.jpg) no-repeat top center;
   background-size: cover; }
 
 .modelroom_main_slider, .bx-wrapper, .bx-viewport {
@@ -7433,7 +7433,13 @@ html {
         background-size: cover; } }
 
 .modelroom_main {
-  background: #231815; }
+  background: #231815;
+  background: url(../img/modelroom/modelroom_main_thumbs_bottom_pref_bg.png) bottom center no-repeat;
+  background-size: 100% auto; }
+  @media screen and (max-width: 768px) {
+    .modelroom_main {
+      background: url(../img/modelroom/modelroom_main_thumbs_bottom_pref_bg_sp.png) bottom left no-repeat;
+      background-size: contain; } }
 
 @media screen and (max-width: 768px) {
   .modelroom_main_thumbs_contents {
