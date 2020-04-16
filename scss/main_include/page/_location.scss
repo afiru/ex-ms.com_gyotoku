@@ -9,101 +9,76 @@
         background: url(../img/location/under_page_contents_location_sp.jpg) no-repeat center center;
         background-size: cover; 
     }
+    .under_page_contents_location_wap{
+        @include media($sp) {
+            @include ontener_width(375 , 350);
+            margin: 0 auto;
+        }
+    }
+
     h1 {
-        color: #231815;
+
+        color: #FFF;
         @include rs_font_size(30px,2.9296875vw,4vw);
         //フォント（px）【PC】:30pxpx |【Tab】30px |【sp】 15px
         //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
+        
     }
     p {
-        color: #231815;
+        color: #FFF;
+        line-height: 1.35714285714;
         @include rs_font_size(20px,1.953125vw,3.7333333333333334vw);
         //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 14px
         //設定サイズ（px）【PC】:1024px |【Tab】1024px |【sp】 375px
     }
 }
-
-.location_main_top_logo_figure {
-    .location_main_top_logo_figure_img {
-        @include ontener_width(960 , 350.174);
-        margin: 0 auto;
-        @include media($sp) {
-            @include ontener_width(375 , 217.479);
-        }
-    }
-}
-.uruoino_location {
-    height: 998px;
-    @include marginPercent(1920 , 45 , auto , 0 , auto );
-    background: url(../img/location/uruoino_location_pc.png) no-repeat top center;
+.location_main_contetnts_01 {
+    background: url(../img/location/location_main_contetnts_01_pc.jpg) no-repeat top center;
     background-size: auto 100%;
+    height: 1926px;
     @include media($sp) {
-        height:236.53333333333333vw;
-        background: url(../img/location/uruoino_location_sp.png) no-repeat top center;
+        height: 766.0452729693742vw;
+        background: url(../img/location/location_main_contetnts_01_sp.jpg) no-repeat top center;
         background-size: auto 100%;
-    }
+    }  
 }
-.uruoino_location_02 {
-    height: 1010px;
-    @include marginPercent(1920 , 0 , auto , 0 , auto );
-    background: url(../img/location/uruoino_location_02_pc.jpg) no-repeat top center;
+.location_main_contetnts_02 {
+    background: url(../img/location/location_main_contetnts_02_pc.jpg) no-repeat top center;
     background-size: auto 100%;
+    height: 3609px;
     @include media($sp) {
-        height:540.8vw;
-        background: url(../img/location/uruoino_location_02_sp.jpg) no-repeat top center;
+        height: 1671.3715046604527vw;
+        background: url(../img/location/location_main_contetnts_02_sp.jpg) no-repeat top center;
         background-size: auto 100%;
-    }
+    }  
 }
-
-.lacation_uroino_pref {
-    margin: 30px auto 0 auto;
-    text-align: center;
-    font-size: 9.36px;
-}
-
-.location_main_doyadoya {
-    @include marginPercent(1920 , 40 , auto , 0 , auto );
-    @include media($sp) {
-    }
-}
-.location_life {
-    height: 2698px;
-    @include marginPercent(1920 , 220 , auto , 0 , auto );
-    background: url(../img/location/location_life_pc.jpg) no-repeat top center;
+.location_main_contetnts_03 {
+    background: url(../img/location/location_main_contetnts_03.jpg) no-repeat top center;
     background-size: auto 100%;
+    height: 1940px;
     @include media($sp) {
-        height:869.8666666666667vw;
-        background: url(../img/location/location_life_sp.jpg) no-repeat top center;
+        height: 1527.1637816245006vw;
+        background: url(../img/location/location_main_contetnts_03_sp.jpg) no-repeat top center;
         background-size: auto 100%;
-    }
+    }  
 }
-
-.location_public{
-    @include marginPercent(1920 , 105 , auto , 0 , auto );
-    @include media($sp) {
-        @include ontener_width(375 , 355 );
-    }
-}
-
-.location_education {
-    height: 1871.206px;
-    @include marginPercent(1920 , 220 , auto , 0 , auto );
-    background: url(../img/location/pc.jpg) no-repeat top center;
+.location_main_contetnts_04 {
+    background: url(../img/location/location_main_contetnts_04.jpg) no-repeat top center;
     background-size: auto 100%;
+    height: 3151px;
     @include media($sp) {
-        height:629.6386666666667vw;
-        background: url(../img/location/sp.jpg) no-repeat top center;
+        height: 499.86684420772303vw;
+        background: url(../img/location/location_main_contetnts_04_sp.jpg) no-repeat top center;
         background-size: auto 100%;
-    }
+    }  
 }
-
-.location_life_info {
-    @include marginPercent(1920 , 140 , auto , 0 , auto );
+.location_main_contetnts_05 {
+    background: url(../img/location/location_main_contetnts_05_pc.jpg) no-repeat top center;
+    background-size: auto 100%;
+    height: 4041px;
     @include media($sp) {
-        @include ontener_width(375 , 355 );
-    }
-}
-
-.location_bottom_nav {
-    @include marginPercent(1920 , 140 , auto , 180 , auto );
+        height: 2177.496671105193vw;
+        background: url(../img/location/location_main_contetnts_05_sp.jpg) no-repeat top center;
+        background-size: auto 100%;
+    }  
 }
