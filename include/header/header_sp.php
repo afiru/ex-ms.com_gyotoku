@@ -49,22 +49,19 @@ else {
                 </a>
             </li>
             <li class="sp_main_header_nav_ul_li sp_li_arrow_comming">
-                <span class="display_flex_center <?php echo $activeclass['location']; ?>" href="location.php">
+                <a class="display_flex_center <?php echo $activeclass['location']; ?>" href="location.php">
                     <h3 class="sp_main_header_nav_ul_li_h3">ロケーション</h3>
-                    <span class=" bg_808080 color_fff">coming soon</span>
-                </span>
+                </a>
             </li>
             <li class="sp_main_header_nav_ul_li sp_li_arrow_comming">
-                <span class="display_flex_center <?php echo $activeclass['access']; ?>" href="access.php">
+                <a class="display_flex_center <?php echo $activeclass['access']; ?>" href="access.php">
                     <h3 class="sp_main_header_nav_ul_li_h3">アクセス</h3>
-                    <span class=" bg_808080 color_fff">coming soon</span>
-                </span>
+                </a>
             </li>
             <li class="sp_main_header_nav_ul_li sp_li_arrow_comming">
-                <span class="display_flex_center <?php echo $activeclass['design']; ?>" href="design.php">
+                <a class="display_flex_center <?php echo $activeclass['design']; ?>" href="design.php">
                     <h3 class="sp_main_header_nav_ul_li_h3">デザイン</h3>
-                    <span class=" bg_808080 color_fff">coming soon</span>
-                </span>
+                </a>
             </li>
             <li class="sp_main_header_nav_ul_li sp_li_arrow_comming">
                 <a class="<?php echo $activeclass['plan']; ?>" href="plan.php">
@@ -72,10 +69,9 @@ else {
                 </a>
             </li>
             <li class="sp_main_header_nav_ul_li sp_li_arrow_comming">
-                <span class="display_flex_center <?php echo $activeclass['modelroom']; ?>" href="modelroom.php">
+                <a class="display_flex_center <?php echo $activeclass['modelroom']; ?>" href="modelroom.php">
                     <h3 class="sp_main_header_nav_ul_li_h3">モデルルーム</h3>
-                    <span class=" bg_808080 color_fff">coming soon</span>
-                </span>
+                </a>
             </li>
             <li class="sp_main_header_nav_ul_li sp_li_arrow_comming">
                 <span class="display_flex_center <?php echo $activeclass['equipment']; ?>" href="equipment.php">
