@@ -48,7 +48,7 @@
         <img src="img/index/title_index_add_pref_area_h2.svg" alt="資料請求">
     </h2>
     <!-- <p class=" t_center color_BE0D23 margin_wapper_60 top_pref_index_add_pref_area">4月上旬</p> -->
-    <p class="mintyou t_center color_BE0D23 margin_wapper_20 middle_pref_index_add_pref_area">4月11日<span style="font-size: 90%;">(土)</span>より<br>事前説明会開催<br class="sp_only"><span style="font-size: 70%;">[予約制]</span></p>
+    <p class="mintyou t_center color_BE0D23 margin_wapper_20 middle_pref_index_add_pref_area">事前案内会開催中<br class="sp_only"><span style="font-size: 70%;">[予約制]</span></p>
          <!-- <br class="sp_only"><span style="text-align: center;margin-top: 10px; font-size:35px;">［予約制］</span> -->
     <p class="mintyou t_center color_BE0D23 margin_wapper_20 bottom_pref_index_add_pref_area">資料請求受付中</p>
 
@@ -62,10 +62,6 @@
             <tbody>
                 <tr>
                     <th class="day"></th>
-                    <th class="sat">4/11<br class="">
-                        <small> (土)</small></th>
-                    <th class="sun">4/12<br class="">
-                        <small> (日)</small></th>
                     <th class="sat">4/18<br class="">
                         <small> (土)</small></th>
                     <th class="sun">4/19<br class="">
@@ -74,14 +70,10 @@
                 <tr>
                     <td>10:00</td>
                     <td class="full">満席</td>
-                    <td class="full">満席</td>
-                    <td class="full">満席</td>
                     <td class="little"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">change_history</i></a></td>
                 </tr>
                 <tr>
                     <td>13:00</td>
-                    <td class="full">満席</td>
-                    <td class="full">満席</td>
                     <td class="full">満席</td>
                     <td class="little"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">change_history</i></a></td>
                 </tr>
@@ -89,8 +81,6 @@
                     <td>16:00</td>
                     <td class="full">満席</td>
                     <td class="full">満席</td>
-                    <td class="little"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">change_history</i></a></td>
-                    <td class="little"><a href="https://airrsv.net/AKR5884668016/calendar" target="_blank"><i class="material-icons">change_history</i></a></td>
                 </tr>
             </tbody>
         </table>
@@ -107,7 +97,7 @@
     <!--コロナ対応のお知らせ-->
     <link rel="stylesheet" rev="stylesheet" href="//www.ex-ms.com/css/special.css" type="text/css" media="screen,print" />
 <div class="txtCorona mincho">
-        <a href="https://www.ex-ms.com/info/20200323.php" target="_blank">
+        <a href="https://www.ex-ms.com/info/20200323Gs55.php" target="_blank">
     &#8250; 新型コロナウイルスへの感染、流行拡大の防止策および営業時間短縮のお知らせ
         </a>
     </div>
