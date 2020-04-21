@@ -49,6 +49,16 @@
                 </figure>
             </section>
         <?php elseif($val2 === 'ZEH-M'): ?>
+            <section  class="margin_50 padding_top_50_bottom_50 equipment_main_zehm gb_equipment_main_zehm">
+                <figure class="wapper equipment_main_02_contents">
+                    <picture>
+                        <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/gb_equipment_main_zehm_pc.png"><!--PC画像-->
+                        <source class=""  media="(max-width: 768px)" srcset="img/equipment/gb_equipment_main_zehm_sp.png"><!--SP画像-->
+                        <img class="" src="img/equipment/gb_equipment_main_zehm_pc.png" alt="" /><!--そのほか画像（PC）-->
+                    </picture>
+                </figure>
+
+            </section>
         <?php elseif($val2 === 'SMARTHEMS'): ?>
         <?php elseif($val2 === 'EQUIPMENT'): ?>
         <?php elseif($val2 === 'ECOSMARTLIFE'): ?>

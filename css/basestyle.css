@@ -7605,6 +7605,18 @@ html {
   width: 24.6%;
   margin: 0.1% 0% 0.1% 0%; }
 
+.gb_equipment_main_zehm {
+  background: url(../img/equipment/gb_equipment_main_zehm_pc.jpg) no-repeat center center;
+  background-size: auto 100%; }
+  @media screen and (max-width: 768px) {
+    .gb_equipment_main_zehm {
+      background: url(../img/equipment/gb_equipment_main_zehm_sp.jpg) no-repeat center center;
+      background-size: auto 100%;
+      padding: 18.66% 0% 4% 0%; }
+      .gb_equipment_main_zehm .equipment_main_02_contents {
+        width: 93.47%;
+        margin: 0 auto; } }
+
 .lb-loader, .lightbox {
   text-align: center;
   line-height: 0; }

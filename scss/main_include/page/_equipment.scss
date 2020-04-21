@@ -32,3 +32,17 @@
         @include marginPercent(960 , 1 , 0 , 1 , 0 );
     }
 }
+
+.gb_equipment_main_zehm {
+    background: url(../img/equipment/gb_equipment_main_zehm_pc.jpg) no-repeat center center;
+    background-size: auto 100%;
+    @include media($sp) {
+        background: url(../img/equipment/gb_equipment_main_zehm_sp.jpg) no-repeat center center;
+        background-size: auto 100%;
+        @include paddingPercent(375 , 70 , 0 , 15 , 0 );
+        .equipment_main_02_contents {
+            @include ontener_width(375 , 350.5324 );
+            margin: 0 auto;
+        }
+    }
+}
