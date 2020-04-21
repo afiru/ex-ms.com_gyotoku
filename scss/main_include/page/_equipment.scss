@@ -35,11 +35,26 @@
 
 .gb_equipment_main_zehm {
     background: url(../img/equipment/gb_equipment_main_zehm_pc.jpg) no-repeat center center;
-    background-size: auto 100%;
+    background-size: cover;
+    background-attachment: fixed;
     @include media($sp) {
         background: url(../img/equipment/gb_equipment_main_zehm_sp.jpg) no-repeat center center;
-        background-size: auto 100%;
+        background-size: 100% 100%;
         @include paddingPercent(375 , 70 , 0 , 15 , 0 );
+        .equipment_main_02_contents {
+            @include ontener_width(375 , 350.5324 );
+            margin: 0 auto;
+        }
+    }
+}
+.gb_equipment_main_smarthems {
+    background: url(../img/equipment/gb_equipment_main_smarthems_pc.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    @include media($sp) {
+        background: url(../img/equipment/gb_equipment_main_smarthems_sp.jpg) no-repeat center center;
+        background-size: 100% 100%;
+        @include paddingPercent(375 , 15 , 0 , 15 , 0 );
         .equipment_main_02_contents {
             @include ontener_width(375 , 350.5324 );
             margin: 0 auto;

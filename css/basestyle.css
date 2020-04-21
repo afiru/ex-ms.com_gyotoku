@@ -7607,13 +7607,27 @@ html {
 
 .gb_equipment_main_zehm {
   background: url(../img/equipment/gb_equipment_main_zehm_pc.jpg) no-repeat center center;
-  background-size: auto 100%; }
+  background-size: cover;
+  background-attachment: fixed; }
   @media screen and (max-width: 768px) {
     .gb_equipment_main_zehm {
       background: url(../img/equipment/gb_equipment_main_zehm_sp.jpg) no-repeat center center;
-      background-size: auto 100%;
+      background-size: 100% 100%;
       padding: 18.66% 0% 4% 0%; }
       .gb_equipment_main_zehm .equipment_main_02_contents {
+        width: 93.47%;
+        margin: 0 auto; } }
+
+.gb_equipment_main_smarthems {
+  background: url(../img/equipment/gb_equipment_main_smarthems_pc.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; }
+  @media screen and (max-width: 768px) {
+    .gb_equipment_main_smarthems {
+      background: url(../img/equipment/gb_equipment_main_smarthems_sp.jpg) no-repeat center center;
+      background-size: 100% 100%;
+      padding: 4% 0% 4% 0%; }
+      .gb_equipment_main_smarthems .equipment_main_02_contents {
         width: 93.47%;
         margin: 0 auto; } }
 
