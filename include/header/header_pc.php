@@ -108,10 +108,10 @@ else {
                 </a>
             </li>
             <li class="header_main_nav_contents_ul_kenmigawa_li">
-                <span class="<?php echo $activeclass['equipment']; ?>" href="equipment.php">
+                <a class="<?php echo $activeclass['equipment']; ?>" href="equipment.php">
                     <h3 class="t_center  header_main_nav_contents_ul_li_after_right_title_h3">設備仕様・構造</h3>
-                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">coming soon</ruby>
-                </span>
+                    <ruby class="t_center  header_main_nav_contents_ul_li_after_right_title_ruby">EQUIPMENT / STRUCTURE</ruby>
+                </a>
             </li>
         </ul>
     </nav>

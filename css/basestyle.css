@@ -7579,47 +7579,31 @@ html {
   box-sizing: inherit; }
 
 .under_page_contents_equipment {
-  background: url(../img/equipment/under_page_contents_equipment_pc.jpg) no-repeat top center;
-  background-size: cover; }
+  height: 160px;
+  background: url(../img/equipment/bg_equipment_pc.jpg) no-repeat center center;
+  background-size: auto 100%; }
   @media screen and (max-width: 768px) {
     .under_page_contents_equipment {
-      background: url(../img/equipment/under_page_contents_equipment_sp.jpg) no-repeat top center;
-      background-size: cover;
-      height: 50vw;
-      align-items: flex-start;
-      padding: 5.33% 0% 0% 0%; } }
-  .under_page_contents_equipment .main_plan_contenr_contents_p {
-    margin: 1.82% 0% 0% 0%; }
+      height: 24vw;
+      background: url(../img/equipment/bg_equipment_sp.jpg) no-repeat center center;
+      background-size: auto 100%; } }
 
-.color_231815 {
-  color: #231815; }
-
-.equipment_main {
-  margin-top: 3.12%;
-  margin-bottom: 0.52%;
-  margin-left: auto;
-  margin-right: auto; }
+.equipment_main_01 {
+  height: 1169.5447px;
+  background: url(../img/equipment/cont_01_pc.jpg) no-repeat center center;
+  background-size: auto 100%; }
   @media screen and (max-width: 768px) {
-    .equipment_main {
-      width: 94.66%; } }
+    .equipment_main_01 {
+      height: 279.10930666666667vw;
+      background: url(../img/equipment/cont_01_sp.jpg) no-repeat center center;
+      background-size: auto 100%; } }
 
-.equipment_main_nav_ul .equipment_main_nav_li {
-  width: 19.58%;
-  margin: 0% 0% 0.52% 0%; }
-  .equipment_main_nav_ul .equipment_main_nav_li img {
-    display: block; }
+.back_F0E6DD {
+  background: #F0E6DD; }
 
-.equipment_main_article {
-  margin-top: 3.12%;
-  margin-bottom: 8.33%;
-  margin-left: auto;
-  margin-right: auto; }
-  @media screen and (max-width: 768px) {
-    .equipment_main_article {
-      margin-top: 8%;
-      margin-bottom: 21.33%;
-      margin-left: auto;
-      margin-right: auto; } }
+.equipment_main_nav_ul li {
+  width: 24.6%;
+  margin: 0.1% 0% 0.1% 0%; }
 
 .lb-loader, .lightbox {
   text-align: center;

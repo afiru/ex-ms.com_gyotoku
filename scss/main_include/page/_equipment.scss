@@ -4,41 +4,31 @@
 @import '../../sass_base/icon_arrow';
 
 .under_page_contents_equipment {
-    background: url(../img/equipment/under_page_contents_equipment_pc.jpg) no-repeat top center;
-    background-size: cover;
+    height: 160px;
+    background: url(../img/equipment/bg_equipment_pc.jpg) no-repeat center center;
+    background-size: auto 100%;
     @include media($sp) {
-        background: url(../img/equipment/under_page_contents_equipment_sp.jpg) no-repeat top center;
-        background-size: cover;
-        height: 50vw;
-        align-items: flex-start;
-        @include paddingPercent(375 , 20 , 0 , 0 , 0 );
-    }
-    .main_plan_contenr_contents_p {
-        @include marginPercent(1920 , 35 , 0 , 0 , 0 );
+        height: 24vw;
+        background: url(../img/equipment/bg_equipment_sp.jpg) no-repeat center center;
+        background-size: auto 100%;
     }
 }
-.color_231815 {
-    color: #231815;
-}
-.equipment_main {
+.equipment_main_01 {
+    height: 1169.5447px;
+    background: url(../img/equipment/cont_01_pc.jpg) no-repeat center center;
+    background-size: auto 100%;
     @include media($sp) {
-        @include ontener_width(375 , 355);
+        height: 279.10930666666667vw;
+        background: url(../img/equipment/cont_01_sp.jpg) no-repeat center center;
+        background-size: auto 100%;
     }
-    
-    @include marginPercent(960 , 30 , auto , 5 , auto );
+}
+.back_F0E6DD {
+    background: #F0E6DD;
 }
 .equipment_main_nav_ul {
-    .equipment_main_nav_li {
-        @include ontener_width(960 , 188 );
-        @include marginPercent(960 , 0 , 0 , 5 , 0 );
-        img {
-            display: block;
-        }
-    }
-}
-.equipment_main_article {
-    @include marginPercent(960 , 30 , auto , 80 , auto );
-    @include media($sp) {
-        @include marginPercent(375 , 30 , auto , 80 , auto );
+    li {
+        @include ontener_width(960 , 236.25 );
+        @include marginPercent(960 , 1 , 0 , 1 , 0 );
     }
 }

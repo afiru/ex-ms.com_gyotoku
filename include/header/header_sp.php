@@ -74,10 +74,9 @@ else {
                 </a>
             </li>
             <li class="sp_main_header_nav_ul_li sp_li_arrow_comming">
-                <span class="display_flex_center <?php echo $activeclass['equipment']; ?>" href="equipment.php">
+                <a class="display_flex_center <?php echo $activeclass['equipment']; ?>" href="equipment.php">
                     <h3 class="sp_main_header_nav_ul_li_h3">設備仕様</h3>
-                    <span class=" bg_808080 color_fff">coming soon</span>
-                </span>
+                </a>
             </li>
             <li class="sp_main_header_nav_ul_li sp_li_arrow_comming">
                 <a class="now_annai_outline_nav_ul_now_annai_link" href="javascript:;" onclick="window.open('map.php', '', 'width=1024,height=768,scrollbars=yes'); return false;">
