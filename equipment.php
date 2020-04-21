@@ -21,7 +21,7 @@
                                 <picture>
                                     <source class="lazy" media="(min-width: 768px)" srcset="img/equipment/button_0<?php echo $i; ?>_on.svg"><!--PC画像-->
                                     <source class="lazy"  media="(max-width: 768px)" srcset="img/equipment/button_0<?php echo $i; ?>_on_sp.svg"><!--SP画像-->
-                                    <img class="lazy" src="img/equipment/button_0<?php echo str_pad($i, 2, 0, STR_PAD_LEFT); ?>_on.svg" alt="" />
+                                    <img class="lazy" src="img/equipment/button_0<?php echo $i; ?>_on.svg" alt="" />
                                 </picture>
                             <?php else: ?>
                                 <picture>
