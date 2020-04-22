@@ -9,9 +9,64 @@
 <main class="margin_50 equipment_main">
     <?php
         $page_link = array('SKILLFULLYPLANNING','ZEH-M','SMARTHEMS','EQUIPMENT','ECOSMARTLIFE','AMENITYSECURITY','STRUCTURE','QUALITYOFTRUST');
+        $top_title_page_link = array('EQUIPMENT','ECOSMARTLIFE','AMENITYSECURITY','STRUCTURE','QUALITYOFTRUST');
     ?>
+
     <?php $x=1; foreach ($page_link as $key2 => $val2): ?>
-        <nav id="<?php echo $val2; ?>" class="margin_50 wapper">
+    
+        <?php if($val2 === 'EQUIPMENT'): ?>
+            <div id="<?php echo $val2; ?>" class="wapper margin_50 equipment_title_wap">
+                <h2 class="equipment_title">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/equipment/equipment_title_pc.svg"><!--PC画像-->
+                        <source media="(max-width: 768px)" srcset="img/equipment/equipment_title_sp.svg"><!--SP画像-->
+                        <img src="img/equipment/equipment_title_pc.svg" alt="" />
+                    </picture>
+                </h2>
+            </div>
+        <?php elseif($val2 === 'ECOSMARTLIFE'): ?>
+            <div id="<?php echo $val2; ?>" class="wapper margin_50 ecosmartlife_title_wap">
+                <h2 class="equipment_title">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/equipment/title_ecosmartlife_pc.svg"><!--PC画像-->
+                        <source media="(max-width: 768px)" srcset="img/equipment/title_ecosmartlife_sp.svg"><!--SP画像-->
+                        <img src="img/equipment/title_ecosmartlife_pc.svg" alt="" />
+                    </picture>
+                </h2>
+            </div>
+        <?php elseif($val2 === 'AMENITYSECURITY'): ?>
+            <div id="<?php echo $val2; ?>" class="wapper margin_50 ecosmartlife_title_wap">
+                <h2 class="equipment_title">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/equipment/title_amenitysecurity_pc.svg"><!--PC画像-->
+                        <source media="(max-width: 768px)" srcset="img/equipment/title_amenitysecurity_sp.svg"><!--SP画像-->
+                        <img src="img/equipment/title_amenitysecurity_pc.svg" alt="" />
+                    </picture>
+                </h2>
+            </div>
+        <?php elseif($val2 === 'STRUCTURE'): ?>
+            <div id="<?php echo $val2; ?>" class="wapper margin_50 structure_title_wap">
+                <h2 class="equipment_title">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/equipment/title_structure_title_wap_pc.svg"><!--PC画像-->
+                        <source media="(max-width: 768px)" srcset="img/equipment/title_structure_title_wap_sp.svg"><!--SP画像-->
+                        <img src="img/equipment/title_structure_title_wap_pc.svg" alt="" />
+                    </picture>
+                </h2>
+            </div>
+        <?php elseif($val2 === 'QUALITYOFTRUST'): ?>
+            <div id="<?php echo $val2; ?>" class="wapper margin_50 qualityoftrust_title">
+                <h2 class="equipment_title">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/equipment/title_qualityoftrust_pc.svg"><!--PC画像-->
+                        <source media="(max-width: 768px)" srcset="img/equipment/title_qualityoftrust_sp.svg"><!--SP画像-->
+                        <img src="img/equipment/title_qualityoftrust_pc.svg" alt="" />
+                    </picture>
+                </h2>
+            </div>
+        <?php endif; ?>
+    
+        <nav id="<?php echo $val2; ?>" class="<?php if($val2 === 'EQUIPMENT'): ?>margin_50<?php else: ?>margin_50<?php endif; ?> wapper">
             <ul class="display_flex_stretch display_row equipment_main_nav_ul">
                 <?php $i=1 ;foreach ($page_link as $key => $val): ?>
                 <li class="equipment_main_nav_li">
@@ -60,11 +115,65 @@
 
             </section>
         <?php elseif($val2 === 'SMARTHEMS'): ?>
+            <section  class="margin_50 padding_top_50_bottom_50 equipment_main_smarthems gb_equipment_main_smarthems">
+                <figure class="wapper equipment_main_02_contents">
+                    <picture>
+                        <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/equipment_main_smarthems_pc.png"><!--PC画像-->
+                        <source class=""  media="(max-width: 768px)" srcset="img/equipment/equipment_main_smarthems_sp.png"><!--SP画像-->
+                        <img class="" src="img/equipment/equipment_main_smarthems_pc.png" alt="" /><!--そのほか画像（PC）-->
+                    </picture>
+                </figure>
+            </section>
         <?php elseif($val2 === 'EQUIPMENT'): ?>
+            <section  class="margin_50 padding_top_50_bottom_50 equipment_main_equipment gb_equipment_main_equipment">
+                <figure class="wapper equipment_main_02_contents">
+                    <picture>
+                        <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/equipment_main_equipment_pc.png"><!--PC画像-->
+                        <source class=""  media="(max-width: 768px)" srcset="img/equipment/equipment_main_equipment_sp.png"><!--SP画像-->
+                        <img class="" src="img/equipment/equipment_main_equipment_pc.png" alt="" /><!--そのほか画像（PC）-->
+                    </picture>
+                </figure>
+            </section>
         <?php elseif($val2 === 'ECOSMARTLIFE'): ?>
+            <section  class="margin_50 padding_top_50_bottom_50 ecosmartlife_main gb_ecosmartlife_main">
+                <figure class="wapper equipment_main_02_contents">
+                    <picture>
+                        <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/ecosmartlife_main_pc.png"><!--PC画像-->
+                        <source class=""  media="(max-width: 768px)" srcset="img/equipment/ecosmartlife_main_sp.png"><!--SP画像-->
+                        <img class="" src="img/equipment/ecosmartlife_main_pc.png" alt="" /><!--そのほか画像（PC）-->
+                    </picture>
+                </figure>
+            </section>
         <?php elseif($val2 === 'AMENITYSECURITY'): ?>
+            <section  class="margin_50 padding_top_50_bottom_50 amenitysecurity_main gb_amenitysecurity_main">
+                <figure class="wapper equipment_main_02_contents">
+                    <picture>
+                        <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/amenitysecurity_main_pc.png"><!--PC画像-->
+                        <source class=""  media="(max-width: 768px)" srcset="img/equipment/amenitysecurity_main_sp.png"><!--SP画像-->
+                        <img class="" src="img/equipment/amenitysecurity_main_pc.png" alt="" /><!--そのほか画像（PC）-->
+                    </picture>
+                </figure>
+            </section>
         <?php elseif($val2 === 'STRUCTURE'): ?>
+            <section  class="margin_50 padding_top_50_bottom_50 structure_main gb_structure_main">
+                <figure class="wapper equipment_main_02_contents">
+                    <picture>
+                        <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/structure_main_pc.png"><!--PC画像-->
+                        <source class=""  media="(max-width: 768px)" srcset="img/equipment/structure_main_sp.png"><!--SP画像-->
+                        <img class="" src="img/equipment/structure_main_pc.png" alt="" /><!--そのほか画像（PC）-->
+                    </picture>
+                </figure>
+            </section>
         <?php elseif($val2 === 'QUALITYOFTRUST'): ?>
+            <section  class="margin_100 padding_top_50_bottom_50 qualityofturest_main gb_qualityofturest_main">
+                <figure class="wapper equipment_main_02_contents">
+                    <picture>
+                        <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/qualityofturest_main_pc.png"><!--PC画像-->
+                        <source class=""  media="(max-width: 768px)" srcset="img/equipment/qualityofturest_main_sp.png"><!--SP画像-->
+                        <img class="" src="img/equipment/qualityofturest_main_pc.png" alt="" /><!--そのほか画像（PC）-->
+                    </picture>
+                </figure>
+            </section>
         <?php endif; ?>
     <?php $x++; endforeach; ?>
 </main>
