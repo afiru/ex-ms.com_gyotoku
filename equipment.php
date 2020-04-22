@@ -2,7 +2,7 @@
 <?php include 'include/tuijuu_sp.php'; ?>
 <section class="display_flex_center under_page_contents under_page_contents_equipment">
     <div class="text_box">
-        <h1 class="t_center color_231815 mintyou">Equipment</h1>
+        <h1 class="t_center color_231815 mintyou">EQUIPMENT</h1>
     </div>
 </section>
 
@@ -15,7 +15,7 @@
     <?php $x=1; foreach ($page_link as $key2 => $val2): ?>
     
         <?php if($val2 === 'EQUIPMENT'): ?>
-            <div id="<?php echo $val2; ?>" class="wapper margin_50 equipment_title_wap">
+            <div id="<?php echo $val2; ?>" class="wapper margin_100 equipment_title_wap">
                 <h2 class="equipment_title">
                     <picture>
                         <source media="(min-width: 768px)" srcset="img/equipment/equipment_title_pc.svg"><!--PC画像-->
@@ -66,7 +66,7 @@
             </div>
         <?php endif; ?>
     
-        <nav id="<?php echo $val2; ?>" class="<?php if($val2 === 'EQUIPMENT'): ?>margin_50<?php else: ?>margin_50<?php endif; ?> wapper">
+        <nav id="<?php echo $val2; ?>" class="<?php if($val2 === 'EQUIPMENT'): ?>margin_20<?php else: ?>margin_20<?php endif; ?> wapper">
             <ul class="display_flex_stretch display_row equipment_main_nav_ul">
                 <?php $i=1 ;foreach ($page_link as $key => $val): ?>
                 <li class="equipment_main_nav_li">
@@ -94,7 +94,7 @@
         <?php if($val2 === 'SKILLFULLYPLANNING'): ?>
             <section  class="margin_50 equipment_main_01">
             </section>
-            <section class="back_F0E6DD padding_top_50_bottom_50 equipment_main_02">
+            <section class="back_F0E6DD padding_top_30_bottom_50 equipment_main_02">
                 <figure class="wapper equipment_main_02_contents">
                     <picture>
                         <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/contents_02_pc.png"><!--PC画像-->
@@ -135,7 +135,7 @@
                 </figure>
             </section>
         <?php elseif($val2 === 'ECOSMARTLIFE'): ?>
-            <section  class="margin_50 padding_top_50_bottom_50 ecosmartlife_main gb_ecosmartlife_main">
+            <section  class="margin_50 padding_top_0_bottom_50 ecosmartlife_main gb_ecosmartlife_main">
                 <figure class="wapper equipment_main_02_contents">
                     <picture>
                         <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/ecosmartlife_main_pc.png"><!--PC画像-->
