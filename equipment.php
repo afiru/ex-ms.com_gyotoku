@@ -35,7 +35,7 @@
                 </h2>
             </div>
         <?php elseif($val2 === 'AMENITYSECURITY'): ?>
-            <div id="<?php echo $val2; ?>" class="wapper margin_50 ecosmartlife_title_wap">
+            <div id="<?php echo $val2; ?>" class="wapper margin_100 ecosmartlife_title_wap">
                 <h2 class="equipment_title">
                     <picture>
                         <source media="(min-width: 768px)" srcset="img/equipment/title_amenitysecurity_pc.svg"><!--PC画像-->
@@ -145,7 +145,7 @@
                 </figure>
             </section>
         <?php elseif($val2 === 'AMENITYSECURITY'): ?>
-            <section  class="margin_50 padding_top_50_bottom_50 amenitysecurity_main gb_amenitysecurity_main">
+            <section  class="margin_50 padding_top_0_bottom_50 amenitysecurity_main gb_amenitysecurity_main">
                 <figure class="wapper equipment_main_02_contents">
                     <picture>
                         <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/amenitysecurity_main_pc.png"><!--PC画像-->
@@ -155,7 +155,7 @@
                 </figure>
             </section>
         <?php elseif($val2 === 'STRUCTURE'): ?>
-            <section  class="margin_50 padding_top_50_bottom_50 structure_main gb_structure_main">
+            <section  class="margin_50 padding_top_0_bottom_50 structure_main gb_structure_main">
                 <figure class="wapper equipment_main_02_contents">
                     <picture>
                         <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/structure_main_pc.png"><!--PC画像-->
@@ -165,7 +165,7 @@
                 </figure>
             </section>
         <?php elseif($val2 === 'QUALITYOFTRUST'): ?>
-            <section  class="margin_100 padding_top_50_bottom_50 qualityofturest_main gb_qualityofturest_main">
+            <section  class="margin_40 padding_top_0_bottom_50 qualityofturest_main gb_qualityofturest_main">
                 <figure class="wapper equipment_main_02_contents">
                     <picture>
                         <source class="" type="image/webp" media="(min-width: 768px)" srcset="img/equipment/qualityofturest_main_pc.png"><!--PC画像-->
