@@ -191,5 +191,11 @@
         </li>
     </ul>
 </nav>
-
+<div class="margin_40 padding_top_30_bottom_30 index_special_movie">
+    <div class="wapper">
+        <a class="index_special_movie_link_box" href="javascript:;" onclick="window.open('movie.php', '', 'width=910,height=800,scrollbars=yes'); return false;">
+            <img src="img/index/button_index_special_movie_link_box.png" alt="スペシャルウォーター">
+        </a>
+    </div>
+</div>
 <?php include 'include/footer.php'; ?>
