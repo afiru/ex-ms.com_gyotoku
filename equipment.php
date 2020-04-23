@@ -2,7 +2,7 @@
 <?php include 'include/tuijuu_sp.php'; ?>
 <section class="display_flex_center under_page_contents under_page_contents_equipment">
     <div class="text_box">
-        <h1 class="t_center color_231815 mintyou">EQUIPMENT</h1>
+        <h1 class="t_center color_001B44 mintyou">EQUIPMENT</h1>
     </div>
 </section>
 

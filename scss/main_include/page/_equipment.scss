@@ -13,11 +13,19 @@
         background-size: auto 100%;
     }
 }
+
+.equipment_main{
+    @include media($sp){
+        @include marginPercent(375 , 25 , auto , 0 , auto);
+    }
+}
+
 .equipment_main_01 {
     height: 1169.5447px;
     background: url(../img/equipment/cont_01_pc.jpg) no-repeat center center;
     background-size: auto 100%;
     @include media($sp) {
+        @include marginPercent(375 , 35 , auto , 0 , auto);
         height: 279.10930666666667vw;
         background: url(../img/equipment/cont_01_sp.jpg) no-repeat center center;
         background-size: auto 100%;
@@ -29,7 +37,14 @@
 .equipment_main_nav_ul {
     li {
         @include ontener_width(960 , 236.25 );
-        @include marginPercent(960 , 1 , 0 , 1 , 0 );
+        @include marginPercent(960 , 2 , 0 , 2 , 0 );
+        
+    }
+}
+
+.equipment_main_02{
+    @include media($sp){
+        @include marginPercent(375 , 30 , auto , 0 , auto);
     }
 }
 
@@ -47,6 +62,13 @@
         }
     }
 }
+
+.equipment_main_smarthems {
+    @include media($sp){
+       @include marginPercent(375 , 25 , auto , 0 , auto); 
+    }
+}
+
 .gb_equipment_main_smarthems {
     background: url(../img/equipment/gb_equipment_main_smarthems_pc.jpg) no-repeat center center;
     background-size: cover;
@@ -54,10 +76,57 @@
     @include media($sp) {
         background: url(../img/equipment/gb_equipment_main_smarthems_sp.jpg) no-repeat center center;
         background-size: 100% 100%;
-        @include paddingPercent(375 , 15 , 0 , 15 , 0 );
+        @include paddingPercent(375 , 20 , 0 , 20 , 0 );
         .equipment_main_02_contents {
             @include ontener_width(375 , 350.5324 );
             margin: 0 auto;
         }
+    }
+}
+
+.ecosmartlife_title_wap{
+    @include media($sp){
+        @include marginPercent(375 , 60 , auto , 0 , auto);
+    }
+}
+
+.gb_ecosmartlife_main{
+    @include media($sp){
+        @include marginPercent(375 , 20 , auto , 0 , auto);
+    }
+}
+
+.gb_amenitysecurity_main{
+    @include media($sp){
+         @include marginPercent(375 , 30 , auto , 0 , auto);
+    }
+}
+
+.structure_title_wap{
+     @include media($sp){
+         @include marginPercent(375 , 40 , auto , 0 , auto);
+    }
+}
+
+.qualityoftrust_title{
+    @include media($sp){
+        @include marginPercent(375 , 80 , auto , 0 , auto);
+    }
+}
+
+.qualityofturest_main {
+    @include media($sp){
+        @include marginPercent(375 , 50 , auto , 0 , auto);
+    }
+}
+
+.color_001B44{
+    color: #001B44;
+}
+
+nav.margin_20 {
+    @include media($sp){
+        @include marginPercent(375 , 15 , auto , 0 , auto);
+        @include ontener_width(375 , 350);
     }
 }
