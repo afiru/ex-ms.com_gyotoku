@@ -140,3 +140,13 @@
         }
     }
 }
+
+.bunner_index_special_contents {
+    display: block;
+    @include ontener_width(960 , 760 );
+    margin: 0 auto;
+    transition-duration: 0.5s;
+    &:hover {
+        opacity: 0.6;
+    }
+}
