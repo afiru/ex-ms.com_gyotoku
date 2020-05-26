@@ -21,6 +21,9 @@ elseif(strpos($url,'equipment') !== false) {
 elseif(strpos($url,'design') !== false) {
     $activeclass['design'] = "active";
 }
+elseif(strpos($url,'lp') !== false) {
+    $activeclass['lp'] = "active";
+}
 else {
     $activeclass['index'] = "active";
 }
@@ -33,41 +36,60 @@ else {
             </a>
             <h1 class="main_logo_txt">エクセレントシティ行徳駅前</h1>
         </div>
-        <div class="header_new_settings display_flex_center">
-            <nav class=" now_annai_outline_nav">
-                <ul class="display_flex_center now_annai_outline_nav_ul">
-                    <?php if(strpos($url,'map') !== false):else: ?>
-                    <li class="now_annai_outline_nav_ul_now_annai">
-                        <a class="now_annai_outline_nav_ul_now_annai_link" href="javascript:;" onclick="window.open('map.php', '', 'width=1024,height=768,scrollbars=yes'); return false;">
-                            <h2 class="t_center color_000 now_annai_outline_h2"> <span class="arrow">現地案内図</span></h2>
-                        </a>
-                    </li>
-                    <?php endif; ?>
-                    <li class="t_center now_annai_outline_nav_ul_outline">
-                        <a href="https://www.ex-ms.com/outline/gs55.html" target="_blnak" class="">
-                            <span class="arrow">物件概要</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <nav class="contact_tel ">
-                <ul class="display_flex_center contact_tel_ul">
-                    <li class="header_button_contact_li">
-                        <a class="button_EE9B19" href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2110" target="_blank">
-                           資料請求
-                        </a>
-                    </li>
-                    <li class="header_button_contact_li">
-                        <a class="button_B40732" href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
-                            来場予約
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <?php if(strpos($url,'lp') !== false):  ?>
+            <div class="header_new_settings_lp display_flex_center">
+                <nav class="contact_tel_lp ">
+                    <ul class="display_flex_center contact_tel_ul">
+                        <li class="header_button_contact_li">
+                            <a class="button_EE9B19" href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2110" target="_blank">
+                               資料請求
+                            </a>
+                        </li>
+                        <li class="header_button_contact_li">
+                            <a class="button_6FB92C" href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
+                                来場予約
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
+        <?php else: ?>
+            <div class="header_new_settings display_flex_center">            
+                <nav class=" now_annai_outline_nav">
+                    <ul class="display_flex_center now_annai_outline_nav_ul">
+                        <?php if(strpos($url,'map') !== false):else: ?>
+                        <li class="now_annai_outline_nav_ul_now_annai">
+                            <a class="now_annai_outline_nav_ul_now_annai_link" href="javascript:;" onclick="window.open('map.php', '', 'width=1024,height=768,scrollbars=yes'); return false;">
+                                <h2 class="t_center color_000 now_annai_outline_h2"> <span class="arrow">現地案内図</span></h2>
+                            </a>
+                        </li>
+                        <?php endif; ?>
+                        <li class="t_center now_annai_outline_nav_ul_outline">
+                            <a href="https://www.ex-ms.com/outline/gs55.html" target="_blnak" class="">
+                                <span class="arrow">物件概要</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="contact_tel ">
+                    <ul class="display_flex_center contact_tel_ul">
+                        <li class="header_button_contact_li">
+                            <a class="button_EE9B19" href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2110" target="_blank">
+                               資料請求
+                            </a>
+                        </li>
+                        <li class="header_button_contact_li">
+                            <a class="button_B40732" href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
+                                来場予約
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        <?php endif; ?>
 
     </div>
-    <?php if(strpos($url,'plan_detail') !== false or strpos($url,'map') !== false): else: ?>
+    <?php if(strpos($url,'plan_detail') !== false or strpos($url,'map') !== false or strpos($url,'lp') !== false): else: ?>
     <nav class=" margin_0  header_main_nav_contents">
         <ul class="display_flex_stretch display_row header_main_nav_contents_ul">
             <li class="header_main_nav_contents_ul_kenmigawa_li header_main_nav_contents_ul_li_after_right">

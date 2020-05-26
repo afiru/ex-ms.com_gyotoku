@@ -11,23 +11,7 @@
 <script async type="text/javascript" src='js/config.js'></script>
 <script async type="text/javascript" src='js/inview_setting.js'></script>
 <script async src="js/lightbox.min.js"></script>
-<script>
-    window.WebFontConfig = {
-      google: { families: ['Noto+Sans+JP:100,300,400,500,700,900','Noto+Serif+JP:200,300,400,500,600,700,900'] },
-      active: function() {
-        sessionStorage.fonts = true;
-      }
-    };
 
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = '//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })();
-</script>
 <script type="text/javascript" src="//www.ex-ms.com/commonSlideFoot/reci/common_utils.min.js"></script>
 <script type="text/javascript" src="//www.ex-ms.com/commonSlideFoot/reci/slides_list_utils.min.js"></script>
 <script type="text/javascript" src="//www.ex-ms.com/commonSlideFoot/slide_foot.js"></script>

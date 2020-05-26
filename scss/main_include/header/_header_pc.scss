@@ -204,6 +204,7 @@ body {
     .contact_tel {
         @include ontener_width(700 , 350);
     }
+    
     .header_button_contact_li {
         width: 50%;
     }
@@ -218,7 +219,27 @@ body {
         
     }
 }
-
+.header_new_settings_lp {
+    @include ontener_width(1920 , 700 );
+    .contact_tel_lp {
+        width: 100%;
+    }
+    .header_button_contact_li {
+        @include ontener_width(700 ,350 );
+    }
+    .button_6FB92C {
+        display: block;
+        width: 100%;
+        letter-spacing: 5px;
+        /*background: #6fb92c;*/
+        color: #FFF;
+        text-decoration: none;
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 0;
+        @include buttontype14(#6FB92C,#6FB92C,1px,#FFF,#FFF,#FFF,#6FB92C); display:block;
+    }
+}
 .now_annai_outline_nav_ul {
     .arrow {
         @include arrow_type23(#000);

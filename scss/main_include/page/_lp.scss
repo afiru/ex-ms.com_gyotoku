@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import '../../sass_base/mixin';
+@import '../../sass_base/animate';
+@import '../../sass_base/icon_arrow';
+
+.bg_E3E7EA {
+    background: #E3E7EA;
+}
+.lp_01_fv {
+    height: 51.458333333333336vw;
+    background: url(../img/lp/lp_01_pc_fv.jpg) no-repeat top center;
+    background-size: auto 100%;
+}
+.lp_01 {
+    height: 1839px;
+    background: url(../img/lp/lp_01_pc.jpg) no-repeat top center;
+    background-size: auto 100%;
+    margin: -20px 0 0 0;
+    @include media($sp) {
+        height: 496vw;
+        background: url(../img/lp/lp_01_sp.jpg) no-repeat top center;
+        background-size: auto 100%;
+        margin: 0px 0 0 0;
+    }
+}
+.lp_02 {
+    height: 1210px;
+    background: url(../img/lp/lp_02_pc.jpg) no-repeat top center;
+    background-size: auto 100%;
+    @include media($sp) {
+        height: 610.6666666666666vw;
+        background: url(../img/lp/lp_02_sp.jpg) no-repeat top center;
+        background-size: auto 100%;
+    }
+}
+
+.bunner_index_special_contents_lp {
+    @include media($sp) {
+        width: 100%;
+    }
+} 
+.index_special_movie_lp {
+    @include media($sp) {
+        width: 100%;
+        @include paddingPercent(375 , 20 , 0 , 20 , 0 );
+    } 
+}

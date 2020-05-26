@@ -44,21 +44,10 @@ body {
     flex-flow: row wrap;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Noto Sans JP',sans-serif;
     @include imgwidth();
     @include rs_font_size();
 }
 #mintyou,.mintyou {
-    font-family:serif;
-}
-
-.wf-active {
-    body {
-       font-family: 'Noto Sans JP',sans-serif;
-       visibility: visible;
-    }
-    #mintyou,.mintyou {
-        font-family:"Noto Serif JP",serif;
-        visibility: visible;
-    }
+    font-family:"Noto Serif JP",serif;
 }

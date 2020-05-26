@@ -66,32 +66,32 @@
 
 </main>
 <nav class="margin_80 wapper index_top_nav">
-        <ul class="display_flex_stretch display_row index_top_nav_ul">
-            <li class="index_top_nav_ul_li">
-                <a href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2110" target="_blank">
-                    <img src="img/index/button_index_top_nav_ul_li_01.svg" alt="資料請求">
-                </a>
-            </li>
-            <li class="index_top_nav_ul_li">
-                <a href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
-                    <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
-                </a>
-            </li>
-        </ul>
-    </nav>
-<div class="margin_80 padding_top_0_bottom_30 index_special_movie">
-        <div class="wapper">
-            <p class="bnr" style="text-align: center;margin-bottom:10px;">
-                <a href="https://www.ex-ms.com/concept/" target="_blank" style="display:inline-block;    margin: 0 10px;">
-                    <img src="img/banner_policy.jpg" style="max-width:435px; " alt="ブランドポリシー">
-                </a>
-                <a href="https://suumo.jp/jj/guide/shosai/JJ081FD001/?ar=030&hp=007057004" target="_blank" style="display:inline-block;    margin: 0 10px;">
-                    <img src="img/suumo.jpg" style="max-width:435px; " alt="SUUMO 不動産会社ガイド">
-                </a>
-            </p>
-            <a class="index_special_movie_link_box" href="javascript:;" onclick="window.open('movie.php', '', 'width=910,height=800,scrollbars=yes'); return false;">
-                <img src="img/index/button_index_special_movie_link_box.png" alt="エクセレントウォーター動画">
+    <ul class="display_flex_stretch display_row index_top_nav_ul">
+        <li class="index_top_nav_ul_li">
+            <a href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2110" target="_blank">
+                <img src="img/index/button_index_top_nav_ul_li_01.svg" alt="資料請求">
             </a>
-        </div>
+        </li>
+        <li class="index_top_nav_ul_li">
+            <a href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
+                <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
+            </a>
+        </li>
+    </ul>
+</nav>
+<div class="margin_80 padding_top_0_bottom_30 index_special_movie">
+    <div class="wapper">
+        <p class="bnr" style="text-align: center;margin-bottom:10px;">
+            <a href="https://www.ex-ms.com/concept/" target="_blank" style="display:inline-block;    margin: 0 10px;">
+                <img src="img/banner_policy.jpg" style="max-width:435px; " alt="ブランドポリシー">
+            </a>
+            <a href="https://suumo.jp/jj/guide/shosai/JJ081FD001/?ar=030&hp=007057004" target="_blank" style="display:inline-block;    margin: 0 10px;">
+                <img src="img/suumo.jpg" style="max-width:435px; " alt="SUUMO 不動産会社ガイド">
+            </a>
+        </p>
+        <a class="index_special_movie_link_box" href="javascript:;" onclick="window.open('movie.php', '', 'width=910,height=800,scrollbars=yes'); return false;">
+            <img src="img/index/button_index_special_movie_link_box.png" alt="エクセレントウォーター動画">
+        </a>
     </div>
+</div>
 <?php include 'include/footer.php'; ?>
