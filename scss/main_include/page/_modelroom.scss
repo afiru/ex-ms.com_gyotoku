@@ -87,10 +87,10 @@
 }
 .modelroom_main {
     background: #231815;
-    background:url(../img/modelroom/modelroom_main_thumbs_bottom_pref_bg.png)bottom center no-repeat;
-    background-size:100% auto;
+    background:url(../img/modelroom/modelroom_main_thumbs_bottom_pref_bg.jpg)top center no-repeat;
+    background-size:auto 100%;
     @include media($sp) {
-        background:url(../img/modelroom/modelroom_main_thumbs_bottom_pref_bg_sp.png)bottom left no-repeat;
+        background:url(../img/modelroom/modelroom_main_thumbs_bottom_pref_bg_sp.jpg)bottom left no-repeat;
         background-size:contain;
     }
 }
@@ -101,17 +101,26 @@
         justify-content: center !important;
     }
 }
+.modelroom_main_thumbs_contents {
+    @include media($sp){
+        justify-content: center;
+    }
+}
 .modelroom_main_thumbs_contents_link {
     @include ontener_width(960 , 224.9709 );
     position: relative;
     overflow: hidden;
     @include media($sp) {
-        @include marginPercent(375 , 10 , 5 , 10 , 5 );
+        @include marginPercent(375 , 5 , 5 , 5 , 5 );
         @include ontener_width(355 ,160);
     }
     &:nth-child(n+5) {
         @include marginPercent(960 , 10 , 0 , 0 , 0);
         @include ontener_width(960 , 121.7699  );
+        @include media($sp) {
+            @include marginPercent(375 , 5 , 5 , 5 , 5 );
+            width: 21.3%;
+        }
     }
     img{
         display: block;
