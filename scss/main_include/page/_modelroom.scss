@@ -48,6 +48,42 @@
             background: url(../img/modelroom/sp_05.jpg); background-size:cover;
         }  
     }
+    .modelroom_main_slider_06 {
+        background: url(../img/modelroom/Pc_06.jpg); background-size:auto 100%;
+        @include media($sp) {
+            background: url(../img/modelroom/sp_06.jpg); background-size:cover;
+        }  
+    }
+    .modelroom_main_slider_07 {
+        background: url(../img/modelroom/Pc_07.jpg); background-size:auto 100%;
+        @include media($sp) {
+            background: url(../img/modelroom/sp_07.jpg); background-size:cover;
+        }  
+    }
+    .modelroom_main_slider_08 {
+        background: url(../img/modelroom/Pc_08.jpg); background-size:auto 100%;
+        @include media($sp) {
+            background: url(../img/modelroom/sp_08.jpg); background-size:cover;
+        }  
+    }
+    .modelroom_main_slider_09 {
+        background: url(../img/modelroom/Pc_09.jpg); background-size:auto 100%;
+        @include media($sp) {
+            background: url(../img/modelroom/sp_09.jpg); background-size:cover;
+        }  
+    }
+    .modelroom_main_slider_10 {
+        background: url(../img/modelroom/Pc_10.jpg); background-size:auto 100%;
+        @include media($sp) {
+            background: url(../img/modelroom/sp_10.jpg); background-size:cover;
+        }  
+    }
+    .modelroom_main_slider_11 {
+        background: url(../img/modelroom/Pc_10.jpg); background-size:auto 100%;
+        @include media($sp) {
+            background: url(../img/modelroom/sp_10.jpg); background-size:cover;
+        }  
+    }
 }
 .modelroom_main {
     background: #231815;
@@ -66,12 +102,16 @@
     }
 }
 .modelroom_main_thumbs_contents_link {
-    @include ontener_width(960 , 179.288);
+    @include ontener_width(960 , 224.9709 );
     position: relative;
     overflow: hidden;
     @include media($sp) {
         @include marginPercent(375 , 10 , 5 , 10 , 5 );
         @include ontener_width(355 ,160);
+    }
+    &:nth-child(n+5) {
+        @include marginPercent(960 , 10 , 0 , 0 , 0);
+        @include ontener_width(960 , 121.7699  );
     }
     img{
         display: block;

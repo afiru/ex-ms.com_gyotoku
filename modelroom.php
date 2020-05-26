@@ -10,16 +10,17 @@
 </section>
 <main class="modelroom_main padding_top_0_bottom_30">
     <ul id="modelroom_main_slider" class="modelroom_main_slider">
-        <li class="modelroom_main_slider_01" >
-        </li>
-        <li class="modelroom_main_slider_02" >
-        </li>
-        <li class="modelroom_main_slider_03" >
-        </li>
-        <li class="modelroom_main_slider_04" >
-        </li>
-        <li class="modelroom_main_slider_05" >
-        </li>
+        <li class="modelroom_main_slider_01" ></li>
+        <li class="modelroom_main_slider_02" ></li>
+        <li class="modelroom_main_slider_03" ></li>
+        <li class="modelroom_main_slider_04" ></li>
+        <li class="modelroom_main_slider_05" ></li>
+        <li class="modelroom_main_slider_06" ></li>
+        <li class="modelroom_main_slider_07" ></li>
+        <li class="modelroom_main_slider_08" ></li>
+        <li class="modelroom_main_slider_09" ></li>
+        <li class="modelroom_main_slider_10" ></li>
+        <li class="modelroom_main_slider_11" ></li>
     </ul>
     <div class="wapper margin_70 modelroom_main_thumbs">
         <div class="modelroom_main_thumbs_contents display_flex_stretch display_row">
@@ -37,6 +38,24 @@
             </a>
             <a class="modelroom_main_thumbs_contents_link" data-slide-index="4" href="#modelroom_main_slider">
                 <img src="img/modelroom/modelroom_main_slider_thumbs_05.jpg">
+            </a>
+            <a class="modelroom_main_thumbs_contents_link" data-slide-index="5" href="#modelroom_main_slider">
+                <img src="img/modelroom/modelroom_main_slider_thumbs_06.jpg">
+            </a>
+            <a class="modelroom_main_thumbs_contents_link" data-slide-index="6" href="#modelroom_main_slider">
+                <img src="img/modelroom/modelroom_main_slider_thumbs_07.jpg">
+            </a>
+            <a class="modelroom_main_thumbs_contents_link" data-slide-index="7" href="#modelroom_main_slider">
+                <img src="img/modelroom/modelroom_main_slider_thumbs_08.jpg">
+            </a>
+            <a class="modelroom_main_thumbs_contents_link" data-slide-index="8" href="#modelroom_main_slider">
+                <img src="img/modelroom/modelroom_main_slider_thumbs_09.jpg">
+            </a>
+            <a class="modelroom_main_thumbs_contents_link" data-slide-index="9" href="#modelroom_main_slider">
+                <img src="img/modelroom/modelroom_main_slider_thumbs_10.jpg">
+            </a>
+            <a class="modelroom_main_thumbs_contents_link" data-slide-index="10" href="#modelroom_main_slider">
+                <img src="img/modelroom/modelroom_main_slider_thumbs_11.jpg">
             </a>
         </div>
 
