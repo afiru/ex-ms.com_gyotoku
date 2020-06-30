@@ -19,73 +19,73 @@
         }
     }
     .modelroom_main_slider_01 {
-        background: url(../img/modelroom/Pc_01.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_01.jpg) ; background-size:auto 100%;  background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_01.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_01.jpg); background-size:cover; background-position: top center;
         }
     }
     .modelroom_main_slider_02 {
-        background: url(../img/modelroom/Pc_02.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_02.jpg); background-size:auto 100%;  background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_02.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_02.jpg); background-size:cover; background-position: top center;
         } 
     }
     .modelroom_main_slider_03 {
-        background: url(../img/modelroom/Pc_03.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_03.jpg); background-size:auto 100%; background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_03.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_03.jpg); background-size:cover; background-position: top center;
         }  
     }
     .modelroom_main_slider_04 {
-        background: url(../img/modelroom/Pc_04.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_04.jpg); background-size:auto 100%; background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_04.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_04.jpg); background-size:cover; background-position: top center;
         }  
     }
     .modelroom_main_slider_05 {
-        background: url(../img/modelroom/Pc_05.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_05.jpg); background-size:auto 100%; background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_05.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_05.jpg); background-size:cover; background-position: top center;
         }  
     }
     .modelroom_main_slider_06 {
-        background: url(../img/modelroom/Pc_06.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_06.jpg); background-size:auto 100%; background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_06.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_06.jpg); background-size:cover; background-position: top center;
         }  
     }
     .modelroom_main_slider_07 {
-        background: url(../img/modelroom/Pc_07.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_07.jpg); background-size:auto 100%; background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_07.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_07.jpg); background-size:cover; background-position: top center;
         }  
     }
     .modelroom_main_slider_08 {
-        background: url(../img/modelroom/Pc_08.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_08.jpg); background-size:auto 100%; background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_08.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_08.jpg); background-size:cover; background-position: top center;
         }  
     }
     .modelroom_main_slider_09 {
-        background: url(../img/modelroom/Pc_09.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_09.jpg); background-size:auto 100%; background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_09.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_09.jpg); background-size:cover; background-position: top center;
         }  
     }
     .modelroom_main_slider_10 {
-        background: url(../img/modelroom/Pc_10.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_10.jpg); background-size:auto 100%; background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_10.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_10.jpg); background-size:cover; background-position: top center;
         }  
     }
     .modelroom_main_slider_11 {
-        background: url(../img/modelroom/Pc_10.jpg); background-size:auto 100%;
+        background: url(../img/modelroom/Pc_11.jpg); background-size:auto 100%; background-position: top center;
         @include media($sp) {
-            background: url(../img/modelroom/sp_10.jpg); background-size:cover;
+            background: url(../img/modelroom/sp_11.jpg); background-size:cover; background-position: top center;
         }  
     }
 }
-.modelroom_main {
+.modelroom_main_thumbs_wap {
     background: #231815;
     background:url(../img/modelroom/modelroom_main_thumbs_bottom_pref_bg.jpg)top center no-repeat;
     background-size:auto 100%;
@@ -93,6 +93,9 @@
         background:url(../img/modelroom/modelroom_main_thumbs_bottom_pref_bg_sp.jpg)bottom left no-repeat;
         background-size:contain;
     }
+}
+.modelroom_main_thumbs {
+    
 }
 .modelroom_main_thumbs_contents {
     @include media($sp) {

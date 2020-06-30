@@ -22,47 +22,50 @@
         <li class="modelroom_main_slider_10" ></li>
         <li class="modelroom_main_slider_11" ></li>
     </ul>
-    <div class="wapper margin_70 modelroom_main_thumbs">
-        <div class="modelroom_main_thumbs_contents display_flex_stretch display_row">
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="0" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_01.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="1" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_02.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="2" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_03.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="3" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_04.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="4" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_05.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="5" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_06.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="6" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_07.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="7" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_08.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="8" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_09.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="9" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_10.jpg">
-            </a>
-            <a class="modelroom_main_thumbs_contents_link" data-slide-index="10" href="#modelroom_main_slider">
-                <img src="img/modelroom/modelroom_main_slider_thumbs_11.jpg">
-            </a>
-        </div>
+    <div class="padding_top_70_bottom_40 modelroom_main_thumbs_wap">
+        <div class="wapper  modelroom_main_thumbs">
+            <div class="modelroom_main_thumbs_contents display_flex_stretch display_row">
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="0" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_01.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="1" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_02.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="2" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_03.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="3" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_04.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="4" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_05.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="5" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_06.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="6" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_07.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="7" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_08.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="8" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_09.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="9" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_10.jpg">
+                </a>
+                <a class="modelroom_main_thumbs_contents_link" data-slide-index="10" href="#modelroom_main_slider">
+                    <img src="img/modelroom/modelroom_main_slider_thumbs_11.jpg">
+                </a>
+            </div>
 
-        <p class="t_center mintyou modelroom_main_thumbs_bottom_pref">
-            ※掲載写真はモデルルームを撮影（2020年2月撮影）したものです。家具・調度品等は販売価格に含まれません。一部の仕様はオプション（有償）となります。
-        </p>
+            <p class="t_center mintyou modelroom_main_thumbs_bottom_pref">
+                ※掲載写真はモデルルームを撮影（2020年2月撮影）したものです。家具・調度品等は販売価格に含まれません。一部の仕様はオプション（有償）となります。
+            </p>
+        </div>
     </div>
+
 
 </main>
 <nav class="margin_80 wapper index_top_nav">

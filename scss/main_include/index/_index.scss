@@ -57,10 +57,21 @@
 
 .lp_banner{
     position: fixed;
-    width:300px;
-    top:20%;
-    right:7%;
+    width: 24.98625vw;
+    bottom: 70px;
+    right: 1.5%;
     z-index: 1000;
+    @include media($tab) {
+        @include ontener_width(1024 , 250 );
+        right:2%;
+    }
+    @include media($sp) {
+        position: relative;
+        top: auto;bottom: auto;
+        right:auto;
+        @include ontener_width(375 , 350 );
+        @include marginPercent(375 , 0 , auto , 0 , auto );
+    }
     .lp_banner_wap {
         position: relative;
     }
@@ -71,17 +82,7 @@
         width: 30px;
         height: 30px;
     }
-    @include media($tab) {
-        @include ontener_width(1024 , 250 );
-        right:2%;
-    }
-    @include media($sp) {
-        position: relative;
-        top: auto;
-        right:auto;
-        @include ontener_width(375 , 350 );
-        @include marginPercent(375 , 0 , auto , 0 , auto );
-    }
+
 }
 .lp_banner{
     .button_lp_bunner_close_box {

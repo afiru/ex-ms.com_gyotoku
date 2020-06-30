@@ -11,36 +11,16 @@
 
 
 <div class="index_main_slider_after_contents">
-<!--        <figure class="sp_only sp_top_pref">
-            <img src="img/index/index_main_slider_after_contents_main_catch_sp.png" alt="「船堀Ⅳ」">
-        </figure>-->
-        <figure class="index_main_slider_after_contents_main_catch index_main_slider_after_contents_main_catch_02">
-            <picture>
-                <source class="lazy index_main_slider_after_contents_main_catch_img" media="(min-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_pc.png"><!--PC画像-->
-                <source class="lazy index_main_slider_after_contents_main_catch_img"  media="(max-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_sp_1.png"><!--SP画像-->
-                <img class="lazy index_main_slider_after_contents_main_catch_img" data-src="img/index/index_main_slider_after_contents_main_catch_pc.png" alt="都心直結のターミナル駅" />
-            </picture>
-        </figure>
+    <figure class="index_main_slider_after_contents_main_catch index_main_slider_after_contents_main_catch_02">
+        <picture>
+            <source class="lazy index_main_slider_after_contents_main_catch_img" media="(min-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_pc.png"><!--PC画像-->
+            <source class="lazy index_main_slider_after_contents_main_catch_img"  media="(max-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_sp_1.png"><!--SP画像-->
+            <img class="lazy index_main_slider_after_contents_main_catch_img" data-src="img/index/index_main_slider_after_contents_main_catch_pc.png" alt="都心直結のターミナル駅" />
+        </picture>
+    </figure>
 </div>
 
-<!--<div class="index_main_slider_after_contents bg_index_main_slider_after_contents">
-    <div class="wapper">
-        <figure class="index_main_slider_after_contents_main_catch index_main_slider_after_contents_main_catch_02">
-            <picture>
-                <source class="lazy index_main_slider_after_contents_main_catch_img" media="(min-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_pc_02.png">PC画像
-                <source class="lazy index_main_slider_after_contents_main_catch_img"  media="(max-width: 768px)" data-srcset="img/index/index_main_slider_after_contents_main_catch_sp_02.png">SP画像
-                <img class="lazy index_main_slider_after_contents_main_catch_img" data-src="img/index/index_main_slider_after_contents_main_catch_pc_02.png" alt="価格" />
-            </picture>
-        </figure>
 
-    </div>
-</div>-->
-
-
-    <!-- price -->
-<!--    <div class="infoPrice">
-        <img src="img/info_price.jpg?ver=1202" alt="1LDK 2,500万円台～、2LDK 3,900万円台～　※100万円単位"></div>
-    </div>-->
 
 <div class="wapper margin_80 index_add_pref_area">
 
@@ -51,8 +31,6 @@
     <p class="mintyou t_center color_BE0D23 margin_wapper_20 middle_pref_index_add_pref_area">事前案内会開催中<br class="sp_only"><span style="font-size: 70%;">[予約制]</span></p>
          <!-- <br class="sp_only"><span style="text-align: center;margin-top: 10px; font-size:35px;">［予約制］</span> -->
     <p class="mintyou t_center color_BE0D23 margin_wapper_20 bottom_pref_index_add_pref_area">資料請求受付中</p>
-
-
 
     <!-- 予約表 -->
     <div class="calendar mincho">
@@ -96,14 +74,27 @@
 
     <!--コロナ対応のお知らせ-->
     <link rel="stylesheet" rev="stylesheet" href="//www.ex-ms.com/css/special.css" type="text/css" media="screen,print" />
-<div class="txtCorona mincho">
+    <div class="txtCorona mincho">
         <a href="https://www.ex-ms.com/info/20200323Gs55.php" target="_blank">
-    &#8250; 新型コロナウイルスへの感染、流行拡大の防止策および営業時間短縮のお知らせ
+            &#8250; 新型コロナウイルスへの感染、流行拡大の防止策および営業時間短縮のお知らせ
         </a>
     </div>
-    
 </div>
+
 <main class="main_index">
+    <div class="lp_banner off">
+        <div class="lp_banner_wap">
+            <span class="button_lp_bunner_close off">
+                <span class="button_lp_bunner_close_box">
+                    <span class="button_lp_bunner_close_box_border"></span>
+                    <span class="button_lp_bunner_close_box_border"></span>
+                </span>
+            </span>
+            <a href="lp.php" target="_blank">
+                <img class="hover" src="img/index/lp_banner_hover.jpg" alt="1LDK住戸特集｜【公式】エクセレントシティ船堀Ⅳ レシェンテ">
+            </a>
+        </div>
+    </div>
     <nav class="margin_80 wapper index_top_nav">
         <ul class="display_flex_stretch display_row index_top_nav_ul">
             <li class="index_top_nav_ul_li">

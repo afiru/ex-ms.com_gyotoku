@@ -23,7 +23,7 @@
                     </picture>
             </li>
             <li class="footer_nav_ul_li_02">
-                <a class="footer_nav_ul_li_02_a pc_link_none" href="tel:0120-313-306">
+                <a class="footer_nav_ul_li_02_a pc_link_none" href="tel:0120-171-180">
                     <picture>
                         <source class="" media="(min-width: 768px)" srcset="img/footer/button_footer_nav_ul_li_02_a.svg"><!--PC画像-->
                         <source class=""  media="(max-width: 768px)" srcset="img/footer/button_footer_nav_ul_li_02_a_sp.svg"><!--SP画像-->
