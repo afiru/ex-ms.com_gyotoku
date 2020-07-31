@@ -4,11 +4,11 @@ $base_description = "新日本建設の新築分譲マンション『エクセ�
 $url = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 if(strpos($url,'plan') !== false) {
     $title = "ルームプラン｜".$base_title;
-    $description = "エクセレントシティ拝島駅前 レシェンテのプランページです。".$base_description;
+    $description = "エクセレントシティ行徳駅前のプランページです。".$base_description;
 }
 elseif(strpos($url,'map') !== false) {
     $title = "現地案内図｜".$base_title;
-    $description = "エクセレントシティ拝島駅前 レシェンテの現地案内図のページです。".$base_description;
+    $description = "エクセレントシティ行徳駅前の現地案内図のページです。".$base_description;
 }
 elseif(strpos($url,'movie') !== false) {
     $title = "エクセレントウォーター動画について｜".$base_title;
@@ -16,23 +16,23 @@ elseif(strpos($url,'movie') !== false) {
 }
 elseif(strpos($url,'location') !== false) {
     $title = "ロケーション・周辺環境について｜".$base_title;
-    $description = "エクセレントシティ拝島駅前 レシェンテのロケーション・周辺環境についてのページです。".$base_description;
+    $description = "エクセレントシティ行徳駅前のロケーション・周辺環境についてのページです。".$base_description;
 }
 elseif(strpos($url,'design') !== false) {
     $title = "デザインについて｜".$base_title;
-    $description = "エクセレントシティ拝島駅前 レシェンテのデザインについてのページです。".$base_description;
+    $description = "エクセレントシティ行徳駅前のデザインについてのページです。".$base_description;
 }
 elseif(strpos($url,'access') !== false) {
     $title = "アクセス｜".$base_title;
-    $description = "エクセレントシティ拝島駅前 レシェンテのアクセスについてのページです。".$base_description;
+    $description = "エクセレントシティ行徳駅前のアクセスについてのページです。".$base_description;
 }
 elseif(strpos($url,'modelroom') !== false) {
     $title = "モデルルーム｜".$base_title;
-    $description = "エクセレントシティ拝島駅前 レシェンテのモデルルーム紹介についてのページです。".$base_description;
+    $description = "エクセレントシティ行徳駅前のモデルルーム紹介についてのページです。".$base_description;
 }
 elseif(strpos($url,'equipment') !== false) {
     $title = "仕様・設備｜".$base_title;
-    $description = "エクセレントシティ拝島駅前 レシェンテの仕様設備のページです".$base_description;
+    $description = "エクセレントシティ行徳駅前の仕様設備のページです".$base_description;
 }
 else {
     $title = "".$base_title;
