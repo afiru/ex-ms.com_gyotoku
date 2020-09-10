@@ -57,8 +57,8 @@
 
 .lp_banner{
     position: fixed;
-    width: 24.98625vw;
-    bottom: 70px;
+    width: 20vw;
+    bottom: 15vw;
     right: 1.5%;
     z-index: 1000;
     @include media($tab) {
@@ -82,7 +82,6 @@
         width: 30px;
         height: 30px;
     }
-
 }
 .lp_banner{
     .button_lp_bunner_close_box {
@@ -91,7 +90,6 @@
         width: 30px;
         height: 30px;
     }
-
     .button_lp_bunner_close_box_border {
         width: 30px;
         height: 2px;
@@ -151,3 +149,73 @@
         opacity: 0.6;
     }
 }
+
+
+.lp_banner_02{
+    position: fixed;
+    width: 20vw;
+    bottom: 2vw;
+    right: 1.5%;
+    z-index: 1000;
+    @include media($tab) {
+        @include ontener_width(1024 , 250 );
+        right:2%;
+    }
+    @include media($sp) {
+        position: relative;
+        top: auto;bottom: auto;
+        right:auto;
+        @include ontener_width(375 , 350 );
+        @include marginPercent(375 , 20 , auto , 0 , auto );
+    }
+    .lp_banner_wap {
+        position: relative;
+    }
+    .button_lp_bunner_close {
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        width: 30px;
+        height: 30px;
+    }
+}
+.lp_banner_02{
+    .button_lp_bunner_close_box_02 {
+        position: relative;
+        cursor: pointer;  
+        width: 30px;
+        height: 30px;
+    }
+    .button_lp_bunner_close_box_border {
+        width: 30px;
+        height: 2px;
+        transition-duration: 0.5s;
+        opacity: 0;
+        background: #000;
+        position: absolute;
+        z-index: 999;
+        &:first-child {
+            top: 20px;
+            transform: rotate3d(0, 0, 0, 45deg);
+        }
+        &:nth-child(2) {
+            top: 20px;
+            transform: rotate3d(0, 0, 0, -45deg);
+        }
+    }
+    &:hover {
+        .button_lp_bunner_close_box_border {
+            opacity: 1;
+            &:first-child {
+                top: 20px;
+                transform: rotate3d(0, 0, 1, 45deg);
+            }
+            &:nth-child(2) {
+                top: 20px;
+                transform: rotate3d(0, 0, 1, -45deg);
+            }
+        }
+    }
+}
+
+

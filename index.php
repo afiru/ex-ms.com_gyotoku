@@ -95,6 +95,21 @@
             </a>
         </div>
     </div>
+    
+    <div class="lp_banner_02 off">
+        <div class="lp_banner_wap">
+            <span class="button_lp_bunner_close off">
+                <span class="button_lp_bunner_close_box_02">
+                    <span class="button_lp_bunner_close_box_border"></span>
+                    <span class="button_lp_bunner_close_box_border"></span>
+                </span>
+            </span>
+            <a href="lp_02.php" target="_blank">
+                <img class="hover" src="img/index/lp_banner_hover_02.jpg" alt="1LDK住戸特集｜【公式】エクセレントシティ船堀Ⅳ レシェンテ">
+            </a>
+        </div>
+    </div>
+    
     <nav class="margin_80 wapper index_top_nav">
         <ul class="display_flex_stretch display_row index_top_nav_ul">
             <li class="index_top_nav_ul_li">

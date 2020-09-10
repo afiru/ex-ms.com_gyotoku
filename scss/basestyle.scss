@@ -94,7 +94,9 @@ svg {
         @include buttontype14(#29628F,#00447A,2px,#FFF,#00447A,#00447A,#FFF); display:block;
     }     
 }
-
+.bg_F6F1ED {
+    background: #F6F1ED;
+}
 
 
 //トップページ部分
@@ -115,4 +117,5 @@ svg {
 @import 'main_include/page/_modelroom';
 @import 'main_include/page/_equipment';
 @import 'main_include/page/_lp';
+@import 'main_include/page/_lp_2';
 @import 'lightbox.min';

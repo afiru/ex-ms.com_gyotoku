@@ -1,0 +1,114 @@
+@charset "utf-8";
+@import '../../sass_base/mixin';
+@import '../../sass_base/animate';
+@import '../../sass_base/icon_arrow';
+.fv_contents_box {
+    position: relative;
+    .button_fv_contents {
+        width: 200px;
+        position: absolute;
+        top: 2%;
+        left: 3%;
+        @include media($sp) {
+            @include ontener_width(375 , 130);
+        }
+    }
+}
+.fv_contents {
+    img {
+        display: block;
+    }  
+}
+.fv_contents_box {
+    img {
+        display: block;
+    }
+}
+.bg_bottom_fv_contents {
+    margin: 0;
+    background: url(../img/lp_02/bg_bottom_fv_contents_pc.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.bottom_fv_contents {
+    @include paddingPercent(1920 , 30 , 0 , 40 , 0 );
+    @include media($sp) {
+        @include paddingPercent(375 , 15 , 0 , 20 , 0 );
+        .txt_bottom_fv_contents {
+            @include ontener_width(375 , 350 );
+        }
+    }
+}
+.syouraiseiwokanngaeruto {
+    @include paddingPercent(1920 , 55 , 0 , 85 , 0 );
+    @include paddingPercent(375 , 15 , 0 , 20 , 0 );
+    .txt_bottom_fv_contents {
+        @include media($sp) {
+            @include ontener_width(375 , 350 );
+        }
+        
+    }
+}
+.osusumepoinnts {
+    @include paddingPercent(1920 , 75 , 0 , 110 , 0 );
+    @include media($sp) {
+        @include paddingPercent(375 , 25 , 0 , 65 , 0 );
+    }
+}
+.pic_osusumepoinnts {
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        margin: 0 auto;
+    }
+}
+.sumaukatawokagayakaseru {
+    @include paddingPercent(1920 , 100 , 0 , 35 , 0 );
+    @include media($sp) {
+        @include paddingPercent(375 , 25 , 0 , 25 , 0 );
+    }
+}
+.sumaukatawokagayakaseru_top {
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        margin: 0 auto;
+    }
+}
+.sumaukatawokagayakaseru_bottom {
+    @include marginPercent(960 , 45 , auto , 0 , auto );
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 20 , auto , 0 , auto );
+    }
+}
+.kaitekipark_side {
+    @include marginPercent(960 , 115 , auto , 0 , auto );
+    @include media($sp) {
+        @include marginPercent(375 , 55 , auto , 0 , auto );
+    }
+}
+.kaitekipark_side_tpp {
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 0 , auto , 0 , auto );
+    }
+}
+.kaitekipark_side_center {
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 30 , auto , 0 , auto );
+    }
+}
+.to_location_button {
+    @include ontener_width(960 , 470 );
+    @include marginPercent(960 , 30 , auto , 0 , auto );
+    @include media($sp) {
+        @include ontener_width(375 , 320);
+        @include marginPercent(350 , 35 , auto , 0 , auto );
+    }
+}
+.kaitekipark_4points {
+    @include marginPercent(960 , 110 , auto , 0 , auto );
+    @include media($sp) {
+        @include ontener_width(375 , 375);
+        @include marginPercent(350 , 60 , auto , 0 , auto );
+    }
+}

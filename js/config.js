@@ -56,6 +56,9 @@ $(function(){
     $('.button_lp_bunner_close_box').on( 'click', function() {
         $('.lp_banner').fadeOut(500);
     });
+    $('.button_lp_bunner_close_box_02').on( 'click', function() {
+        $('.lp_banner_02').fadeOut(500);
+    });
 });
 //ヘッダー追従
 $(function(){
