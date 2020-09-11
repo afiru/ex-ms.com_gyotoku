@@ -98,6 +98,22 @@
         ※建物完成予想CGは計画段階の図面を基に描いたもので実際とは異なります。なお、外観の細部・設備機器・配管類等は一部省略または簡略化しております。植栽につきましては特定の季節の状況を表現したものではなく、竣工時には完成予想図程度には成長しておりません。樹種は一部変更になる場合があります。タイルや各種部材につきましては実物と質感・色等の見え方が異なる場合があります。また今後変更になる場合があります。
     </p>
 </section>
+
+<nav class="margin_80 wapper index_top_nav">
+    <ul class="display_flex_stretch display_row index_top_nav_ul">
+        <li class="index_top_nav_ul_li">
+            <a href="https://www.ex-ms.com/sendmail/sendmail01.php?no=2110" target="_blank">
+                <img src="img/index/button_index_top_nav_ul_li_01.svg" alt="資料請求">
+            </a>
+        </li>
+        <li class="index_top_nav_ul_li">
+            <a href="https://airrsv.net/AKR5884668016/calendar" target="_blank">
+                <img src="img/index/button_index_top_nav_ul_li_02.svg" alt="お電話でのお問合せは「エクセレントシティ拝島駅前」プロジェクト準備室：10：00～19：00火・水曜定休（祝日は除く）">
+            </a>
+        </li>
+    </ul>
+</nav>
+
 <div class="margin_80 padding_top_60_bottom_60 bg_E3E7EA index_special_movie index_special_movie_lp">
     <div class="wapper index_special_contents ">
         <a class="bunner_index_special_contents bunner_index_special_contents_lp" href="https://my.matterport.com/show/?m=1B6LmFav6pm&lang=jp" target="_blank">
